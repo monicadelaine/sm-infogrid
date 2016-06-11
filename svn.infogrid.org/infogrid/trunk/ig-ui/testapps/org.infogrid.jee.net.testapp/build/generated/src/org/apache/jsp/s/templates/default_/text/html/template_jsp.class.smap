@@ -1,0 +1,23 @@
+SMAP
+template_jsp.java
+JSP
+*S JSP
+*F
++ 0 template.jsp
+s/templates/default/text/html/template.jsp
+*L
+10,4:63
+13:114,5
+13,2:69
+14:132,5
+14,10:73
+23:150,12
+24,2:162
+25:189,5
+25,3:166
+27,2:85
+28:207,7
+28,2:89
+29:232,5
+29,4:93
+*E

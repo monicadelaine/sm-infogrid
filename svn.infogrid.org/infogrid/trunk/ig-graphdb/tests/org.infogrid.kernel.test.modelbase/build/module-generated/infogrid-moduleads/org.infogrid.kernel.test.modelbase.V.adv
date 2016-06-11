@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF8"?>
+<standardmodule>
+<name>org.infogrid.kernel.test.modelbase</name>
+<built>2016-02-21T12:49:24.353Z</built>
+<username>ModelBase test Module</username>
+<userdescription>Tests the InfoGrid ModelBase</userdescription>
+<runclass>org.infogrid.kernel.test.modelbase.AllTests</runclass>
+<provides>
+<jar>org.infogrid.kernel.test.modelbase.jar</jar>
+</provides><dependencies>  <requires name="org.infogrid.util.logging.log4j" mode="buildtime">
+   <parameter name="org.infogrid.util.logging.log4j.ConfigPropertiesFile" value ="org/infogrid/kernel/test/modelbase/Log.properties"/>
+  </requires>
+
+  <requires name="org.infogrid.kernel" mode="buildtime"/>
+
+  <requires name="org.infogrid.util" mode="buildtime"/>
+
+  <requires name="org.infogrid.testharness" mode="buildtime"/>
+
+  <requires name="org.infogrid.util.logging.log4j" mode="runtime">
+   <parameter name="org.infogrid.util.logging.log4j.ConfigPropertiesFile" value ="org/infogrid/kernel/test/modelbase/Log.properties"/>
+  </requires>
+
+  <requires name="org.infogrid.kernel" mode="runtime"/>
+
+  <requires name="org.infogrid.util" mode="runtime"/>
+
+  <requires name="org.infogrid.testharness" mode="runtime"/>
+
+</dependencies>
+
+</standardmodule>

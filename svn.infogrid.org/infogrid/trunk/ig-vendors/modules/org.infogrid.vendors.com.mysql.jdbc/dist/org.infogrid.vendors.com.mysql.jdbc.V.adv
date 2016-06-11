@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF8"?>
+<standardmodule>
+<name>org.infogrid.vendors.com.mysql.jdbc</name>
+<built>2016-02-21T12:48:27.467Z</built>
+<username>MySQL JDBC module</username>
+<userdescription>Wraps the MySQL JDBC Jar in an InfoGrid Module.</userdescription>
+<provides>
+<jar>org.infogrid.vendors.com.mysql.jdbc.jar</jar><jar>mysql-connector-java-bin.jar</jar>
+</provides>
+</standardmodule>

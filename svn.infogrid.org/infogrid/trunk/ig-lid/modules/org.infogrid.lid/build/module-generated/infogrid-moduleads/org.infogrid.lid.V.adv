@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF8"?>
+<standardmodule>
+<name>org.infogrid.lid</name>
+<built>2016-02-21T12:50:26.085Z</built>
+<username>InfoGrid LID</username>
+<userdescription>Basic framework for Light-Weight Identity.</userdescription>
+<provides>
+<jar>org.infogrid.lid.jar</jar>
+</provides><dependencies>  <requires name="org.infogrid.util" mode="buildtime"/>
+
+  <requires name="org.infogrid.util" mode="runtime"/>
+
+</dependencies>
+
+</standardmodule>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><modelmodule>
+<name>org.infogrid.meshbase.security.aclbased</name>
+<version/>
+<username>Acl-based Security Subject Area</username>
+<provides>
+<jar>org.infogrid.meshbase.security.aclbased.jar</jar>
+</provides>
+<dependencies>
+<requires name="org.infogrid.kernel"/>
+</dependencies>
+</modelmodule>

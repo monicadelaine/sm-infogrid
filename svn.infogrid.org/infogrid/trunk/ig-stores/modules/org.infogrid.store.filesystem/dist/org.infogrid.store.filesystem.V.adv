@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF8"?>
+<standardmodule>
+<name>org.infogrid.store.filesystem</name>
+<built>2016-02-21T12:48:40.981Z</built>
+<username>Filesystem-based Store Module</username>
+<userdescription>Implements the Store abstraction using the local file system.</userdescription>
+<provides>
+<jar>org.infogrid.store.filesystem.jar</jar>
+</provides><dependencies>  <requires name="org.infogrid.store" mode="buildtime"/>
+
+  <requires name="org.infogrid.util" mode="buildtime"/>
+
+  <requires name="org.infogrid.store" mode="runtime"/>
+
+  <requires name="org.infogrid.util" mode="runtime"/>
+
+</dependencies>
+
+</standardmodule>

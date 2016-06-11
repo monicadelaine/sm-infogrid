@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><modelmodule>
+<name>org.infogrid.lid.model.openid.pape</name>
+<version/>
+<username>OpenID Provider Authentication Policy Extension Subject Area</username>
+<provides>
+<jar>org.infogrid.lid.model.openid.pape.jar</jar>
+</provides>
+<dependencies>
+<requires name="org.infogrid.kernel"/>
+<requires name="org.infogrid.lid.model.yadis" version=""/>
+</dependencies>
+</modelmodule>

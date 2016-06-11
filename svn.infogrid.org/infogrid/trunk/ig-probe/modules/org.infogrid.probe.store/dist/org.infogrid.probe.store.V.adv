@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF8"?>
+<standardmodule>
+<name>org.infogrid.probe.store</name>
+<built>2016-02-21T14:10:12.753Z</built>
+<username>Store Probe framework Module</username>
+<userdescription>Enables the information held by the InfoGrid Probe framework to be persistent using
+   any InfoGrid Store</userdescription>
+<provides>
+<jar>org.infogrid.probe.store.jar</jar>
+</provides><dependencies>  <requires name="org.infogrid.lid" mode="buildtime"/>
+
+  <requires name="org.infogrid.lid.model.lid" mode="buildtime"/>
+
+  <requires name="org.infogrid.lid.openid" mode="buildtime"/>
+
+  <requires name="org.infogrid.lid.model.openid.auth" mode="buildtime"/>
+
+  <requires name="org.infogrid.lid.model.yadis" mode="buildtime"/>
+
+  <requires name="org.infogrid.kernel" mode="buildtime"/>
+
+  <requires name="org.infogrid.kernel.net" mode="buildtime"/>
+
+  <requires name="org.infogrid.probe" mode="buildtime"/>
+
+  <requires name="org.infogrid.store" mode="buildtime"/>
+
+  <requires name="org.infogrid.meshbase.store.net" mode="buildtime"/>
+
+  <requires name="org.infogrid.util" mode="buildtime"/>
+
+  <requires name="org.infogrid.lid" mode="runtime"/>
+
+  <requires name="org.infogrid.lid.model.lid" mode="runtime"/>
+
+  <requires name="org.infogrid.lid.openid" mode="runtime"/>
+
+  <requires name="org.infogrid.lid.model.openid.auth" mode="runtime"/>
+
+  <requires name="org.infogrid.lid.model.yadis" mode="runtime"/>
+
+  <requires name="org.infogrid.kernel" mode="runtime"/>
+
+  <requires name="org.infogrid.kernel.net" mode="runtime"/>
+
+  <requires name="org.infogrid.probe" mode="runtime"/>
+
+  <requires name="org.infogrid.store" mode="runtime"/>
+
+  <requires name="org.infogrid.meshbase.store.net" mode="runtime"/>
+
+  <requires name="org.infogrid.util" mode="runtime"/>
+
+</dependencies>
+
+</standardmodule>

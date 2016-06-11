@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF8"?>
+<standardmodule>
+<name>org.infogrid.meshbase.store</name>
+<built>2016-02-21T12:49:15.708Z</built>
+<username>Store MeshBase module</username>
+<userdescription>Enables the content of a MeshBase to be persisted in any InfoGrid Store.</userdescription>
+<provides>
+<jar>org.infogrid.meshbase.store.jar</jar>
+</provides><dependencies>  <requires name="org.infogrid.kernel" mode="buildtime"/>
+
+  <requires name="org.infogrid.store" mode="buildtime"/>
+
+  <requires name="org.infogrid.util" mode="buildtime"/>
+
+  <requires name="org.infogrid.kernel" mode="runtime"/>
+
+  <requires name="org.infogrid.store" mode="runtime"/>
+
+  <requires name="org.infogrid.util" mode="runtime"/>
+
+</dependencies>
+
+</standardmodule>

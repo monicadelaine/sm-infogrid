@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF8"?>
+<standardmodule>
+<name>org.infogrid.meshbase.store.net.test</name>
+<built>2016-02-21T14:10:03.177Z</built>
+<username>StoreNetMeshBase test Module</username>
+<userdescription>Tests the persisting of NetMeshBase information in Stores.</userdescription>
+<runclass>org.infogrid.meshbase.store.net.test.AllTests</runclass>
+<provides>
+<jar>org.infogrid.meshbase.store.net.test.jar</jar>
+</provides><dependencies>  <requires name="org.infogrid.util.logging.log4j" mode="buildtime">
+   <parameter name="org.infogrid.util.logging.log4j.ConfigPropertiesFile" value ="org/infogrid/meshbase/store/net/test/Log.properties"/>
+  </requires>
+
+  <requires name="org.infogrid.kernel.net" mode="buildtime"/>
+
+  <requires name="org.infogrid.meshbase.store" mode="buildtime"/>
+
+  <requires name="org.infogrid.model.Test" mode="buildtime"/>
+
+  <requires name="org.infogrid.meshbase.store.net" mode="buildtime"/>
+
+  <requires name="org.infogrid.store.sql.mysql" mode="buildtime"/>
+
+  <requires name="org.infogrid.testharness" mode="buildtime"/>
+
+  <requires name="org.infogrid.util.logging.log4j" mode="runtime">
+   <parameter name="org.infogrid.util.logging.log4j.ConfigPropertiesFile" value ="org/infogrid/meshbase/store/net/test/Log.properties"/>
+  </requires>
+
+  <requires name="org.infogrid.kernel.net" mode="runtime"/>
+
+  <requires name="org.infogrid.meshbase.store" mode="runtime"/>
+
+  <requires name="org.infogrid.model.Test" mode="runtime"/>
+
+  <requires name="org.infogrid.meshbase.store.net" mode="runtime"/>
+
+  <requires name="org.infogrid.store.sql.mysql" mode="runtime"/>
+
+  <requires name="org.infogrid.testharness" mode="runtime"/>
+
+</dependencies>
+
+</standardmodule>

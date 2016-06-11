@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF8"?>
+<modelmodule>
+<name>org.infogrid.model.Viewlet</name>
+<built>2016-02-21T14:10:55.395Z</built>
+<username>Viewlet Subject Area</username>
+<provides>
+<jar>org.infogrid.model.Viewlet.jar</jar>
+</provides><dependencies>  <requires name="org.infogrid.kernel" mode="buildtime"/>
+
+  <requires name="org.infogrid.kernel" mode="runtime"/>
+
+</dependencies>
+</modelmodule>

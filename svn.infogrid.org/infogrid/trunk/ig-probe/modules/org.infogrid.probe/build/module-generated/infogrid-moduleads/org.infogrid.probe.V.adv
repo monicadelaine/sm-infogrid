@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF8"?>
+<standardmodule>
+<name>org.infogrid.probe</name>
+<built>2016-02-21T14:10:09.196Z</built>
+<username>InfoGrid Probe framework module</username>
+<userdescription>Enables InfoGrid to access and keep consistent with external data feeds
+   of any format.</userdescription>
+<provides>
+<jar>org.infogrid.probe.jar</jar>
+</provides><dependencies>  <requires name="org.infogrid.lid" mode="buildtime"/>
+
+  <requires name="org.infogrid.lid.model.lid" mode="buildtime"/>
+
+  <requires name="org.infogrid.lid.model.openid.auth" mode="buildtime"/>
+
+  <requires name="org.infogrid.lid.model.yadis" mode="buildtime"/>
+
+  <requires name="org.infogrid.kernel" mode="buildtime"/>
+
+  <requires name="org.infogrid.kernel.net" mode="buildtime"/>
+
+  <requires name="org.infogrid.model.Blob" mode="buildtime"/>
+
+  <requires name="org.infogrid.model.Probe" mode="buildtime"/>
+
+  <requires name="org.infogrid.util" mode="buildtime"/>
+
+  <requires name="org.infogrid.lid" mode="runtime"/>
+
+  <requires name="org.infogrid.lid.model.lid" mode="runtime"/>
+
+  <requires name="org.infogrid.lid.model.openid.auth" mode="runtime"/>
+
+  <requires name="org.infogrid.lid.model.yadis" mode="runtime"/>
+
+  <requires name="org.infogrid.kernel" mode="runtime"/>
+
+  <requires name="org.infogrid.kernel.net" mode="runtime"/>
+
+  <requires name="org.infogrid.model.Blob" mode="runtime"/>
+
+  <requires name="org.infogrid.model.Probe" mode="runtime"/>
+
+  <requires name="org.infogrid.util" mode="runtime"/>
+
+</dependencies>
+
+</standardmodule>

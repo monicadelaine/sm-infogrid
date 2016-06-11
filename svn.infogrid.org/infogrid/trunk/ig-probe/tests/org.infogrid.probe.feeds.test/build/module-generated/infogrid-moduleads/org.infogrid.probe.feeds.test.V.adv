@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF8"?>
+<standardmodule>
+<name>org.infogrid.probe.feeds.test</name>
+<built>2016-02-21T14:10:43.585Z</built>
+<username>Feeds test Module</username>
+<userdescription>Tests the Atom and RSS Probes.</userdescription>
+<runclass>org.infogrid.probe.feeds.test.AllTests</runclass>
+<provides>
+<jar>org.infogrid.probe.feeds.test.jar</jar>
+</provides><dependencies>  <requires name="org.infogrid.util.logging.log4j" mode="buildtime">
+   <parameter name="org.infogrid.util.logging.log4j.ConfigPropertiesFile" value ="org/infogrid/probe/feeds/test/Log.properties"/>
+  </requires>
+
+  <requires name="org.infogrid.kernel" mode="buildtime"/>
+
+  <requires name="org.infogrid.kernel.net" mode="buildtime"/>
+
+  <requires name="org.infogrid.net.local" mode="buildtime"/>
+
+  <requires name="org.infogrid.model.Feeds" mode="buildtime"/>
+
+  <requires name="org.infogrid.model.Probe" mode="buildtime"/>
+
+  <requires name="org.infogrid.model.Test" mode="buildtime"/>
+
+  <requires name="org.infogrid.probe" mode="buildtime"/>
+
+  <requires name="org.infogrid.probe.feeds" mode="buildtime"/>
+
+  <requires name="org.infogrid.util" mode="buildtime"/>
+
+  <requires name="org.infogrid.testharness" mode="buildtime"/>
+
+  <requires name="org.infogrid.util.logging.log4j" mode="runtime">
+   <parameter name="org.infogrid.util.logging.log4j.ConfigPropertiesFile" value ="org/infogrid/probe/feeds/test/Log.properties"/>
+  </requires>
+
+  <requires name="org.infogrid.kernel" mode="runtime"/>
+
+  <requires name="org.infogrid.kernel.net" mode="runtime"/>
+
+  <requires name="org.infogrid.net.local" mode="runtime"/>
+
+  <requires name="org.infogrid.model.Feeds" mode="runtime"/>
+
+  <requires name="org.infogrid.model.Probe" mode="runtime"/>
+
+  <requires name="org.infogrid.model.Test" mode="runtime"/>
+
+  <requires name="org.infogrid.probe" mode="runtime"/>
+
+  <requires name="org.infogrid.probe.feeds" mode="runtime"/>
+
+  <requires name="org.infogrid.util" mode="runtime"/>
+
+  <requires name="org.infogrid.testharness" mode="runtime"/>
+
+</dependencies>
+
+</standardmodule>

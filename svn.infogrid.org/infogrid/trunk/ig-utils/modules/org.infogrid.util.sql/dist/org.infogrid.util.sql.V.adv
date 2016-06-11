@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF8"?>
+<standardmodule>
+<name>org.infogrid.util.sql</name>
+<built>2016-02-21T12:47:53.700Z</built>
+<username>InfoGrid SQL Database Abstraction</username>
+<provides>
+<jar>org.infogrid.util.sql.jar</jar>
+</provides><dependencies>  <requires name="org.infogrid.util" mode="buildtime"/>
+
+  <requires name="org.infogrid.util" mode="runtime"/>
+
+</dependencies>
+
+</standardmodule>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF8"?>
+<standardmodule>
+<name>org.infogrid.jee</name>
+<built>2016-02-21T14:11:00.482Z</built>
+<username>JEE support for InfoGrid.</username>
+<userdescription>Frameworks and components that make the development of InfoGrid applications
+   using JEE easier.</userdescription>
+<provides>
+<jar>org.infogrid.jee.jar</jar>
+</provides><dependencies>  <requires name="org.infogrid.util" mode="buildtime"/>
+
+  <requires name="org.infogrid.vendors.org.apache.jakarta.taglibs.jstl" mode="buildtime"/>
+
+  <requires name="org.infogrid.util" mode="runtime"/>
+
+  <requires name="org.infogrid.vendors.org.apache.jakarta.taglibs.jstl" mode="runtime"/>
+
+</dependencies>
+
+</standardmodule>

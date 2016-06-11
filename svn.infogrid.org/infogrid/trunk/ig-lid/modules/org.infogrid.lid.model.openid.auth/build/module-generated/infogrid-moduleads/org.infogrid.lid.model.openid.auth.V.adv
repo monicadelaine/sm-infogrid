@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF8"?>
+<modelmodule>
+<name>org.infogrid.lid.model.openid.auth</name>
+<built>2016-02-21T12:50:47.739Z</built>
+<username>OpenID Authentication Subject Area</username>
+<provides>
+<jar>org.infogrid.lid.model.openid.auth.jar</jar>
+</provides><dependencies>  <requires name="org.infogrid.kernel" mode="buildtime"/>
+
+  <requires name="org.infogrid.lid.model.yadis" mode="buildtime"/>
+
+  <requires name="org.infogrid.lid.model.lid" mode="buildtime"/>
+
+  <requires name="org.infogrid.kernel" mode="runtime"/>
+
+  <requires name="org.infogrid.lid.model.yadis" mode="runtime"/>
+
+  <requires name="org.infogrid.lid.model.lid" mode="runtime"/>
+
+</dependencies>
+</modelmodule>

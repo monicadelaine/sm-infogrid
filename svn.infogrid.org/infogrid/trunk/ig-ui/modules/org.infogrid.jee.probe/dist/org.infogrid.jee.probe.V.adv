@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF8"?>
+<standardmodule>
+<name>org.infogrid.jee.probe</name>
+<built>2016-02-21T14:11:12.749Z</built>
+<username>JEE/REST support the InfoGrid Probe framework.</username>
+<provides>
+<jar>org.infogrid.jee.probe.jar</jar>
+</provides><dependencies>  <requires name="org.infogrid.jee.viewlet" mode="buildtime"/>
+
+  <requires name="org.infogrid.kernel.net" mode="buildtime"/>
+
+  <requires name="org.infogrid.util" mode="buildtime"/>
+
+  <requires name="org.infogrid.jee.viewlet" mode="runtime"/>
+
+  <requires name="org.infogrid.kernel.net" mode="runtime"/>
+
+  <requires name="org.infogrid.util" mode="runtime"/>
+
+</dependencies>
+
+</standardmodule>

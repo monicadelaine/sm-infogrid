@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF8"?>
+<standardmodule>
+<name>org.infogrid.httpd</name>
+<built>2016-02-21T12:48:06.089Z</built>
+<username>The InfoGrid minimalistic HTTP server</username>
+<userdescription>A minimalistic HTTP server that is very extensible and very efficient.</userdescription>
+<provides>
+<jar>org.infogrid.httpd.jar</jar>
+</provides><dependencies>  <requires name="org.infogrid.util" mode="buildtime"/>
+
+  <requires name="org.infogrid.util" mode="runtime"/>
+
+</dependencies>
+
+</standardmodule>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF8"?>
+<standardmodule>
+<name>org.infogrid.probe.feeds</name>
+<built>2016-02-21T14:10:15.162Z</built>
+<username>Feeds Probes</username>
+<userdescription>Contains Probes for Atom and RSS. Supports InfoGrid extensions.</userdescription>
+<provides>
+<jar>org.infogrid.probe.feeds.jar</jar>
+</provides><dependencies>  <requires name="org.infogrid.kernel" mode="buildtime"/>
+
+  <requires name="org.infogrid.kernel.net" mode="buildtime"/>
+
+  <requires name="org.infogrid.probe" mode="buildtime"/>
+
+  <requires name="org.infogrid.model.Feeds" mode="buildtime"/>
+
+  <requires name="org.infogrid.kernel" mode="runtime"/>
+
+  <requires name="org.infogrid.kernel.net" mode="runtime"/>
+
+  <requires name="org.infogrid.probe" mode="runtime"/>
+
+  <requires name="org.infogrid.model.Feeds" mode="runtime"/>
+
+</dependencies>
+ <capability>  <interface>org.infogrid.probe.feeds.rss.RssProbe</interface>
+  <interface>org.infogrid.probe.xml.XmlDOMProbe</interface>
+  <interface>org.infogrid.probe.Probe</interface>
+  <implementation>org.infogrid.probe.feeds.rss.RssProbe</implementation>
+ </capability>
+ <capability>  <interface>org.infogrid.probe.feeds.atom.AtomProbe</interface>
+  <interface>org.infogrid.probe.xml.XmlDOMProbe</interface>
+  <interface>org.infogrid.probe.Probe</interface>
+  <implementation>org.infogrid.probe.feeds.atom.AtomProbe</implementation>
+ </capability>
+
+</standardmodule>

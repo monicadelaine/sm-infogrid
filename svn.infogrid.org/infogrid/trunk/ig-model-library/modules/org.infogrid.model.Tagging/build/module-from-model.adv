@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><modelmodule>
+<name>org.infogrid.model.Tagging</name>
+<version/>
+<username>Tagging Subject Area</username>
+<provides>
+<jar>org.infogrid.model.Tagging.jar</jar>
+</provides>
+<dependencies>
+<requires name="org.infogrid.kernel"/>
+</dependencies>
+</modelmodule>

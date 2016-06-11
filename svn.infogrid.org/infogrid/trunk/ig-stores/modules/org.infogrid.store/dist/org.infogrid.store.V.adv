@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF8"?>
+<standardmodule>
+<name>org.infogrid.store</name>
+<built>2016-02-21T12:48:37.811Z</built>
+<username>The InfoGrid Store Module</username>
+<userdescription>Provides the Store abstraction for storage in InfoGrid,
+   and some utilities that are useful regardless of the Store implementation chosen.</userdescription>
+<provides>
+<jar>org.infogrid.store.jar</jar>
+</provides><dependencies>  <requires name="org.infogrid.util" mode="buildtime"/>
+
+  <requires name="org.infogrid.util" mode="runtime"/>
+
+</dependencies>
+
+</standardmodule>

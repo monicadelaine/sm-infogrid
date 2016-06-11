@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF8"?>
+<standardmodule>
+<name>org.infogrid.lid.openid.store</name>
+<built>2016-02-21T12:51:09.208Z</built>
+<username>Store support for the InfoGrid OpenID implementation</username>
+<userdescription>Enables OpenID information to be stored via any InfoGrid Store.</userdescription>
+<provides>
+<jar>org.infogrid.lid.openid.store.jar</jar>
+</provides><dependencies>  <requires name="org.infogrid.lid.openid" mode="buildtime"/>
+
+  <requires name="org.infogrid.store" mode="buildtime"/>
+
+  <requires name="org.infogrid.util" mode="buildtime"/>
+
+  <requires name="org.infogrid.lid.openid" mode="runtime"/>
+
+  <requires name="org.infogrid.store" mode="runtime"/>
+
+  <requires name="org.infogrid.util" mode="runtime"/>
+
+</dependencies>
+
+</standardmodule>

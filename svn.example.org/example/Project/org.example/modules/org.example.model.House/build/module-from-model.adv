@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><modelmodule>
+<name>org.example.model.House</name>
+<version/>
+<username>Smart House</username>
+<provides>
+<jar>org.example.model.House.jar</jar>
+</provides>
+<dependencies>
+<requires name="org.infogrid.kernel"/>
+</dependencies>
+</modelmodule>

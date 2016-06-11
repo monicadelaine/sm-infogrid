@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF8"?>
+<standardmodule>
+<name>org.infogrid.util</name>
+<built>2016-03-20T18:46:08.950Z</built>
+<username>InfoGrid utility module</username>
+<userdescription>Contains utility classes and methods that are generally useful.</userdescription>
+<configurationclass>org.infogrid.util.Init</configurationclass>
+<provides>
+<jar>org.infogrid.util.jar</jar>
+</provides>
+</standardmodule>

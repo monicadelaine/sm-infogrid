@@ -1,0 +1,22 @@
+SMAP
+WikiObjectDisplayViewlet_jsp.java
+JSP
+*S JSP
+*F
++ 0 WikiObjectDisplayViewlet.jsp
+v/org/infogrid/jee/viewlet/wikiobject/WikiObjectDisplayViewlet.jsp
+*L
+9:76
+10:109,5
+10:79
+11:127,5
+11:82
+12:145,5
+12:85
+13:163,4
+13:88
+14:180,12
+15,2:192
+16:218,6
+16,3:196
+*E

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF8"?>
+<standardmodule>
+<name>org.infogrid.jee.viewlet.json</name>
+<built>2016-02-21T14:11:35.730Z</built>
+<username>Json Viewlet</username>
+<userdescription>A Viewlet that serializes an object graph into Javascript Object Notation (JSON).</userdescription>
+<provides>
+<jar>org.infogrid.jee.viewlet.json.jar</jar>
+</provides><dependencies>  <requires name="org.infogrid.jee" mode="buildtime"/>
+
+  <requires name="org.infogrid.jee.templates" mode="buildtime"/>
+
+  <requires name="org.infogrid.jee.viewlet" mode="buildtime"/>
+
+  <requires name="org.infogrid.kernel" mode="buildtime"/>
+
+  <requires name="org.infogrid.util" mode="buildtime"/>
+
+  <requires name="org.infogrid.jee" mode="runtime"/>
+
+  <requires name="org.infogrid.jee.templates" mode="runtime"/>
+
+  <requires name="org.infogrid.jee.viewlet" mode="runtime"/>
+
+  <requires name="org.infogrid.kernel" mode="runtime"/>
+
+  <requires name="org.infogrid.util" mode="runtime"/>
+
+</dependencies>
+
+</standardmodule>

@@ -1,0 +1,16 @@
+
+INFO  2016-02-21 15:26:51,897 [main] infogrid.testharness.AbstractTestGroup (Log4jLog.java:164) 
+ @ org.infogrid.util.logging.log4j.Log4jLog.logInfo:164
+ - Running TestSpec org.infogrid.httpd.test.HttpdGetTest1
+
+INFO  2016-02-21 15:26:54,057 [main] infogrid.testharness.AbstractTestGroup (Log4jLog.java:164) 
+ @ org.infogrid.util.logging.log4j.Log4jLog.logInfo:164
+ - Running TestSpec org.infogrid.httpd.test.HttpdGetTest2
+
+INFO  2016-02-21 15:26:57,082 [main] infogrid.testharness.AbstractTestGroup (Log4jLog.java:164) 
+ @ org.infogrid.util.logging.log4j.Log4jLog.logInfo:164
+ - Running TestSpec org.infogrid.httpd.test.HttpdPostTest1
+
+INFO  2016-02-21 15:27:01,526 [main] infogrid.testharness.AbstractTestGroup (Log4jLog.java:164) 
+ @ org.infogrid.util.logging.log4j.Log4jLog.logInfo:164
+ - Running TestSpec org.infogrid.httpd.test.HttpdPostTest2

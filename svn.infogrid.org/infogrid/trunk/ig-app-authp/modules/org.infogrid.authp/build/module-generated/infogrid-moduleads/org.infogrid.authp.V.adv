@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF8"?>
+<standardmodule>
+<name>org.infogrid.authp</name>
+<built>2016-02-21T20:37:27.978Z</built>
+<username>Authentication provider (core)</username>
+<provides>
+<jar>org.infogrid.authp.jar</jar>
+</provides><dependencies>  <requires name="org.infogrid.jee" mode="buildtime"/>
+
+  <requires name="org.infogrid.jee.templates" mode="buildtime"/>
+
+  <requires name="org.infogrid.lid.openid.store" mode="buildtime"/>
+
+  <requires name="org.infogrid.lid.store" mode="buildtime"/>
+
+  <requires name="org.infogrid.store" mode="buildtime"/>
+
+  <requires name="org.infogrid.util" mode="buildtime"/>
+
+  <requires name="org.infogrid.jee" mode="runtime"/>
+
+  <requires name="org.infogrid.jee.templates" mode="runtime"/>
+
+  <requires name="org.infogrid.lid.openid.store" mode="runtime"/>
+
+  <requires name="org.infogrid.lid.store" mode="runtime"/>
+
+  <requires name="org.infogrid.store" mode="runtime"/>
+
+  <requires name="org.infogrid.util" mode="runtime"/>
+
+</dependencies>
+
+</standardmodule>

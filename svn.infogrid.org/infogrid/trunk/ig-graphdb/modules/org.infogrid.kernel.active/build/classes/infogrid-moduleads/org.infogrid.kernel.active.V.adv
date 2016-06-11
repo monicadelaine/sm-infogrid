@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF8"?>
+<standardmodule>
+<name>org.infogrid.kernel.active</name>
+<built>2016-02-21T12:49:09.888Z</built>
+<username>Active InfoGrid kernel</username>
+<userdescription>Defines ActiveSets and related concepts.</userdescription>
+<provides>
+<jar>org.infogrid.kernel.active.jar</jar>
+</provides><dependencies>  <requires name="org.infogrid.kernel" mode="buildtime"/>
+
+  <requires name="org.infogrid.util" mode="buildtime"/>
+
+  <requires name="org.infogrid.kernel" mode="runtime"/>
+
+  <requires name="org.infogrid.util" mode="runtime"/>
+
+</dependencies>
+
+</standardmodule>

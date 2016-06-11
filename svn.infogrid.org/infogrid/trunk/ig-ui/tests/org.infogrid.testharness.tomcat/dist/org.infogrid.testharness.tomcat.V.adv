@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF8"?>
+<standardmodule>
+<name>org.infogrid.testharness.tomcat</name>
+<built>2016-02-21T14:11:58.040Z</built>
+<username>Test Harness for Tomcat Module</username>
+<userdescription>Contains the test harness for tests that operate against an instance of Tomcat.</userdescription>
+<configurationclass>org.infogrid.testharness.tomcat.Init</configurationclass>
+<provides>
+<jar>org.infogrid.testharness.tomcat.jar</jar>
+</provides><dependencies>  <requires name="org.infogrid.testharness" mode="buildtime"/>
+
+  <requires name="org.infogrid.testharness" mode="runtime"/>
+
+</dependencies>
+
+</standardmodule>

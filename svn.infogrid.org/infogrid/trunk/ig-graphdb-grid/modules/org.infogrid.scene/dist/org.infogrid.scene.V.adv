@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF8"?>
+<standardmodule>
+<name>org.infogrid.scene</name>
+<built>2016-02-21T12:51:21.497Z</built>
+<username>InfoGrid Scenes Module</username>
+<userdescription>Defines the concept of an InfoGrid Scene.</userdescription>
+<provides>
+<jar>org.infogrid.scene.jar</jar>
+</provides><dependencies>  <requires name="org.infogrid.kernel" mode="buildtime"/>
+
+  <requires name="org.infogrid.util" mode="buildtime"/>
+
+  <requires name="org.infogrid.kernel" mode="runtime"/>
+
+  <requires name="org.infogrid.util" mode="runtime"/>
+
+</dependencies>
+
+</standardmodule>

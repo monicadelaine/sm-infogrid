@@ -1,0 +1,33 @@
+SMAP
+Log4jConfigurationViewlet_jsp.java
+JSP
+*S JSP
+*F
++ 0 Log4jConfigurationViewlet.jsp
+v/org/infogrid/jee/viewlet/log4j/Log4jConfigurationViewlet.jsp
+*L
+9,5:66
+13:210,5
+13:72
+14:228,4
+14:75
+15:77,12
+16,2:89
+17:92,9
+18,9:101
+28,7:111
+34,2:118
+36:120,3
+37:123
+38:124,3
+39,5:127
+43:132
+44:133,3
+45,3:136
+47:139
+48:140,3
+49,4:143
+52,7:147
+58,15:154
+72:179
+*E

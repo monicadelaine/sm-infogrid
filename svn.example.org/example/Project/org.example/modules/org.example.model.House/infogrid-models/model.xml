@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+ This file is part of InfoGrid(tm). You may not use this file except in
+ compliance with the InfoGrid license. The InfoGrid license and important
+ disclaimers are contained in the file LICENSE.InfoGrid.txt that you should
+ have received with InfoGrid. If you have not received LICENSE.InfoGrid.txt
+ or you do not consent to all aspects of the license and the disclaimers,
+ no license is granted; do not use this file.
+ 
+ For more information about InfoGrid go to http://infogrid.org/
+ 
+ Copyright 1998-2009 by R-Objects Inc. dba NetMesh Inc., Johannes Ernst
+ All rights reserved.
+ -->
+
+<!DOCTYPE model PUBLIC '-//InfoGrid.org//InfoGrid Model//EN' 'http://infogrid.org/dtds/model.dtd'>
+<model>
+<subjectarea ID="org.example.model.House">
+<name>org.example.model.House</name>
+<username>Smart House</username>
+<userdescription>Defines smart home devices</userdescription>
+
+
+<entitytype ID="com.example.model.House/Device">
+<name>Device</name>
+<username>Device</username>
+<userdescription>A thing that has sensors and/or actuators</userdescription>
+ <isabstract/>
+</entitytype>
+
+<entitytype ID="com.example.model.House/Person">
+<name>Person</name>
+<username>Person</username>
+<userdescription>A person in the House</userdescription>
+</entitytype>
+
+<entitytype ID="com.example.model.House/Aspect">
+<name>Aspect</name>
+<username>Aspect</username>
+<userdescription>An aspect of the environment that can be changed or measured</userdescription>
+ <isabstract/>
+</entitytype>
+
+<entitytype ID="com.example.model.House/Location">
+<name>Location</name>
+<username>Location</username>
+<userdescription>An abstract place in environment; add location types as properties</userdescription>
+</entitytype>
+
+<entitytype ID="com.example.model.House/Alias">
+<name>Alias</name>
+<username>Alias</username>
+<userdescription>A person specific name for something</userdescription>
+ <isabstract/>
+</entitytype>
+
+<entitytype ID="com.example.model.House/ChannelAction">
+<name>ChannelAction</name>
+<username>ChannelAction</username>
+<userdescription>Super class for actions on device channels that affect channel state and possibly aspects</userdescription>
+ <isabstract/>
+</entitytype>
+
+<entitytype ID="com.example.model.House/ChannelState">
+<name>ChannelState</name>
+<username>ChannelState</username>
+<userdescription>State of device channel changed via action or updated via sensor</userdescription>
+ <isabstract/>
+</entitytype>
+
+<entitytype ID="com.example.model.House/Channel">
+<name>Channel</name>
+<username>Channel</username>
+<userdescription>Maps to openhab channels; may map one to one to aspect; devices can have one or more channels</userdescription>
+ <isabstract/>
+</entitytype>
+
+
+<entitytype ID="com.example.model.House/Lamp">
+<supertype>com.example.model.House/Device</supertype>
+<name>Lamp</name>
+<username>Lamp</username>
+<userdescription>A lamp with ON/OFF and dimmer</userdescription>
+</entitytype>
+
+<entitytype ID="com.example.model.House/Illumination">
+<supertype>com.example.model.House/Aspect</supertype>
+<name>Illumination</name>
+<username>Illumination</username>
+<userdescription>Visible light available</userdescription>
+</entitytype>
+
+<entitytype ID="com.example.model.House/LocationAlias">
+<supertype>com.example.model.House/Alias</supertype>
+<name>LocationAlias</name>
+<username>LocationAlias</username>
+<userdescription>Person specific reference to a location</userdescription>
+</entitytype>
+
+<entitytype ID="com.example.model.House/DeviceAlias">
+<supertype>com.example.model.House/Alias</supertype>
+<name>DeviceAlias</name>
+<username>DeviceAlias</username>
+<userdescription>A person specific name for a device</userdescription>
+</entitytype>
+
+<entitytype ID="com.example.model.House/AbsoluteAction">
+<supertype>com.example.model.House/ChannelAction</supertype>
+<name>AbsoluteChannelAction</name>
+<username>AbsoluteChannelAction</username>
+<userdescription>Action has specific result regardless of current state</userdescription>
+</entitytype>
+
+<entitytype ID="com.example.model.House/TurnLightOff">
+<supertype>com.example.model.House/AbsoluteAction</supertype>
+<name>TurnLightOff</name>
+<username>TurnLightOff</username>
+<userdescription>Turn light off</userdescription>
+</entitytype>
+
+<entitytype ID="com.example.model.House/TurnLightOn">
+<supertype>com.example.model.House/AbsoluteAction</supertype>
+<name>TurnLightOn</name>
+<username>TurnLightOn</username>
+<userdescription>Turn light on</userdescription>
+</entitytype>
+
+<entitytype ID="com.example.model.House/RelativeAction">
+<supertype>com.example.model.House/ChannelAction</supertype>
+<name>RelativeChannelAction</name>
+<username>RelativeChannelAction</username>
+<userdescription>Relative action; result based on current state</userdescription>
+</entitytype>
+
+<entitytype ID="com.example.model.House/TurnBrightnessUp">
+<supertype>com.example.model.House/AbsoluteAction</supertype>
+<name>TurnBrightnessUp</name>
+<username>TurnBrightnessUp</username>
+<userdescription>Turn brightness up</userdescription>
+</entitytype>
+
+<entitytype ID="com.example.model.House/TurnBrightnessDown">
+<supertype>com.example.model.House/AbsoluteAction</supertype>
+<name>TurnBrightnessDown</name>
+<username>TurnBrightnessDown</username>
+<userdescription>Turn brightness down</userdescription>
+</entitytype>
+
+<entitytype ID="com.example.model.House/LightState">
+<supertype>com.example.model.House/ChannelState</supertype>
+<name>LightState</name>
+<username>LightState</username>
+<userdescription>State of light device</userdescription>
+</entitytype>
+
+<entitytype ID="com.example.model.House/Light">
+<supertype>com.example.model.House/Channel</supertype>
+<name>Light</name>
+<username>Light</username>
+<userdescription>device channel that changes illumination</userdescription>
+</entitytype>
+
+<relationshiptype ID="com.example.model.House/Lamp_provides_Light">
+<name>Lamp_provides_Light</name>
+<username>provides</username>
+<userdescription>A lamp provides light</userdescription>
+<src>
+<e>com.example.model.House/Lamp</e>
+<MultiplicityValue>1:1</MultiplicityValue>
+</src>
+<dest>
+<e>com.example.model.House/Light</e>
+<MultiplicityValue>0:N</MultiplicityValue>
+</dest>
+</relationshiptype>
+
+<relationshiptype ID="com.example.model.House/Light_affects_Illumination">
+<name>Light_affects_Illumination</name>
+<username>affects</username>
+<userdescription>light affects illumination</userdescription>
+<src>
+<e>com.example.model.House/Light</e>
+<MultiplicityValue>1:1</MultiplicityValue>
+</src>
+<dest>
+<e>com.example.model.House/Illumination</e>
+<MultiplicityValue>0:N</MultiplicityValue>
+</dest>
+</relationshiptype>
+
+<relationshiptype ID="com.example.model.House/Light_changedvia_TurnOff">
+<name>Light_changed_OFF</name>
+<username>affects</username>
+<userdescription>light affects illumination</userdescription>
+<src>
+<e>com.example.model.House/Light</e>
+<MultiplicityValue>1:1</MultiplicityValue>
+</src>
+<dest>
+<e>com.example.model.House/TurnLightOff</e>
+<MultiplicityValue>0:N</MultiplicityValue>
+</dest>
+</relationshiptype>
+
+<relationshiptype ID="com.example.model.House/Light_changedvia_TurnOn">
+<name>Light_changed_ON</name>
+<username>affects</username>
+<userdescription>light affects illumination</userdescription>
+<src>
+<e>com.example.model.House/Light</e>
+<MultiplicityValue>1:1</MultiplicityValue>
+</src>
+<dest>
+<e>com.example.model.House/TurnLightOff</e>
+<MultiplicityValue>0:N</MultiplicityValue>
+</dest>
+</relationshiptype>
+
+<relationshiptype ID="com.example.model.House/Light_changedvia_TurnUp">
+<name>Light_brightness_up</name>
+<username>affects</username>
+<userdescription>light affects illumination</userdescription>
+<src>
+<e>com.example.model.House/Light</e>
+<MultiplicityValue>1:1</MultiplicityValue>
+</src>
+<dest>
+<e>com.example.model.House/TurnLightOff</e>
+<MultiplicityValue>0:N</MultiplicityValue>
+</dest>
+</relationshiptype>
+
+<relationshiptype ID="com.example.model.House/Light_changedvia_TurnDown">
+<name>Light_brightness_down</name>
+<username>affects</username>
+<userdescription>light affects illumination</userdescription>
+<src>
+<e>com.example.model.House/Light</e>
+<MultiplicityValue>1:1</MultiplicityValue>
+</src>
+<dest>
+<e>com.example.model.House/TurnLightOff</e>
+<MultiplicityValue>0:N</MultiplicityValue>
+</dest>
+</relationshiptype>
+
+</subjectarea>
+</model>

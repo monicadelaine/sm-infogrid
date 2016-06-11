@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF8"?>
+<modelmodule>
+<name>org.infogrid.model.Wiki</name>
+<built>2016-02-21T12:50:23.170Z</built>
+<username>Wiki Subject Area</username>
+<provides>
+<jar>org.infogrid.model.Wiki.jar</jar>
+</provides><dependencies>  <requires name="org.infogrid.kernel" mode="buildtime"/>
+
+  <requires name="org.infogrid.kernel" mode="runtime"/>
+
+</dependencies>
+</modelmodule>

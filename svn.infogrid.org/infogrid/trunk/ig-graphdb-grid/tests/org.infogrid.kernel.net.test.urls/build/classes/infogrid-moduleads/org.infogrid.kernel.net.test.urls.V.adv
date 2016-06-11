@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF8"?>
+<standardmodule>
+<name>org.infogrid.kernel.net.test.urls</name>
+<built>2016-02-21T12:51:26.739Z</built>
+<username>NetMeshObjectIdentifiers test Module</username>
+<userdescription>Tests the convertion of NetMeshObjectIdentifier from and to URLs.</userdescription>
+<runclass>org.infogrid.kernel.net.test.urls.AllTests</runclass>
+<provides>
+<jar>org.infogrid.kernel.net.test.urls.jar</jar>
+</provides><dependencies>  <requires name="org.infogrid.util.logging.log4j" mode="buildtime">
+   <parameter name="org.infogrid.util.logging.log4j.ConfigPropertiesFile" value ="org/infogrid/kernel/net/test/urls/Log.properties"/>
+  </requires>
+
+  <requires name="org.infogrid.util" mode="buildtime">
+   <parameter name="org.infogrid.util.logging.LogFactory.Class" value ="org.infogrid.util.logging.log4j.Log4jLogFactory"/>
+   <parameter name="org.infogrid.util.logging.LogFactory.Module" value ="org.infogrid.util.logging.log4j"/>
+  </requires>
+
+  <requires name="org.infogrid.kernel" mode="buildtime"/>
+
+  <requires name="org.infogrid.kernel.net" mode="buildtime"/>
+
+  <requires name="org.infogrid.testharness" mode="buildtime"/>
+
+  <requires name="org.infogrid.util.logging.log4j" mode="runtime">
+   <parameter name="org.infogrid.util.logging.log4j.ConfigPropertiesFile" value ="org/infogrid/kernel/net/test/urls/Log.properties"/>
+  </requires>
+
+  <requires name="org.infogrid.util" mode="runtime">
+   <parameter name="org.infogrid.util.logging.LogFactory.Class" value ="org.infogrid.util.logging.log4j.Log4jLogFactory"/>
+   <parameter name="org.infogrid.util.logging.LogFactory.Module" value ="org.infogrid.util.logging.log4j"/>
+  </requires>
+
+  <requires name="org.infogrid.kernel" mode="runtime"/>
+
+  <requires name="org.infogrid.kernel.net" mode="runtime"/>
+
+  <requires name="org.infogrid.testharness" mode="runtime"/>
+
+</dependencies>
+
+</standardmodule>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF8"?>
+<standardmodule>
+<name>org.infogrid.comm.pingpong.test</name>
+<built>2016-02-21T12:48:18.629Z</built>
+<username>PingPong testing Module</username>
+<userdescription>Tests the PingPong communications framework.</userdescription>
+<runclass>org.infogrid.comm.pingpong.test.AllTests</runclass>
+<provides>
+<jar>org.infogrid.comm.pingpong.test.jar</jar>
+</provides><dependencies>  <requires name="org.infogrid.util.logging.log4j" mode="buildtime">
+   <parameter name="org.infogrid.util.logging.log4j.ConfigPropertiesFile" value ="org/infogrid/comm/pingpong/test/Log.properties"/>
+  </requires>
+
+  <requires name="org.infogrid.comm.pingpong" mode="buildtime"/>
+
+  <requires name="org.infogrid.testharness" mode="buildtime"/>
+
+  <requires name="org.infogrid.util" mode="buildtime"/>
+
+  <requires name="org.infogrid.util.logging.log4j" mode="runtime">
+   <parameter name="org.infogrid.util.logging.log4j.ConfigPropertiesFile" value ="org/infogrid/comm/pingpong/test/Log.properties"/>
+  </requires>
+
+  <requires name="org.infogrid.comm.pingpong" mode="runtime"/>
+
+  <requires name="org.infogrid.testharness" mode="runtime"/>
+
+  <requires name="org.infogrid.util" mode="runtime"/>
+
+</dependencies>
+
+</standardmodule>

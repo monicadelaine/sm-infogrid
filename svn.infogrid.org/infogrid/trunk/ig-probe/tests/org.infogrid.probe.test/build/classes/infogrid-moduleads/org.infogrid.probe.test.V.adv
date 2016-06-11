@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF8"?>
+<standardmodule>
+<name>org.infogrid.probe.test</name>
+<built>2016-02-21T14:10:26.948Z</built>
+<username>Probe test Module</username>
+<userdescription>Tests the InfoGrid Probe framework.</userdescription>
+<runclass>org.infogrid.probe.test.AllTests</runclass>
+<provides>
+<jar>org.infogrid.probe.test.jar</jar>
+</provides><dependencies>  <requires name="org.infogrid.util.logging.log4j" mode="buildtime">
+   <parameter name="org.infogrid.util.logging.log4j.ConfigPropertiesFile" value ="org/infogrid/probe/test/Log.properties"/>
+  </requires>
+
+  <requires name="org.infogrid.httpd" mode="buildtime"/>
+
+  <requires name="org.infogrid.kernel" mode="buildtime"/>
+
+  <requires name="org.infogrid.kernel.net" mode="buildtime"/>
+
+  <requires name="org.infogrid.net.local" mode="buildtime"/>
+
+  <requires name="org.infogrid.model.Probe" mode="buildtime"/>
+
+  <requires name="org.infogrid.model.Test" mode="buildtime"/>
+
+  <requires name="org.infogrid.model.Web" mode="buildtime"/>
+
+  <requires name="org.infogrid.probe" mode="buildtime"/>
+
+  <requires name="org.infogrid.lid" mode="buildtime"/>
+
+  <requires name="org.infogrid.lid.model.lid" mode="buildtime"/>
+
+  <requires name="org.infogrid.lid.openid" mode="buildtime"/>
+
+  <requires name="org.infogrid.lid.model.openid.auth" mode="buildtime"/>
+
+  <requires name="org.infogrid.lid.model.yadis" mode="buildtime"/>
+
+  <requires name="org.infogrid.util" mode="buildtime"/>
+
+  <requires name="org.infogrid.util.instrument" mode="buildtime"/>
+
+  <requires name="org.infogrid.testharness" mode="buildtime"/>
+
+  <requires name="org.infogrid.util.logging.log4j" mode="runtime">
+   <parameter name="org.infogrid.util.logging.log4j.ConfigPropertiesFile" value ="org/infogrid/probe/test/Log.properties"/>
+  </requires>
+
+  <requires name="org.infogrid.httpd" mode="runtime"/>
+
+  <requires name="org.infogrid.kernel" mode="runtime"/>
+
+  <requires name="org.infogrid.kernel.net" mode="runtime"/>
+
+  <requires name="org.infogrid.net.local" mode="runtime"/>
+
+  <requires name="org.infogrid.model.Probe" mode="runtime"/>
+
+  <requires name="org.infogrid.model.Test" mode="runtime"/>
+
+  <requires name="org.infogrid.model.Web" mode="runtime"/>
+
+  <requires name="org.infogrid.probe" mode="runtime"/>
+
+  <requires name="org.infogrid.lid" mode="runtime"/>
+
+  <requires name="org.infogrid.lid.model.lid" mode="runtime"/>
+
+  <requires name="org.infogrid.lid.openid" mode="runtime"/>
+
+  <requires name="org.infogrid.lid.model.openid.auth" mode="runtime"/>
+
+  <requires name="org.infogrid.lid.model.yadis" mode="runtime"/>
+
+  <requires name="org.infogrid.util" mode="runtime"/>
+
+  <requires name="org.infogrid.util.instrument" mode="runtime"/>
+
+  <requires name="org.infogrid.testharness" mode="runtime"/>
+
+</dependencies>
+
+</standardmodule>

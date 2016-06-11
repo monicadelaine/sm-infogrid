@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF8"?>
+<standardmodule>
+<name>org.infogrid.crypto</name>
+<built>2016-02-21T12:48:03.593Z</built>
+<username>A currently very small library of cryptographic methods</username>
+<userdescription>Currently very small module that collects all cryptographic
+    functionality otherwise needed by InfoGrid.</userdescription>
+<provides>
+<jar>org.infogrid.crypto.jar</jar>
+</provides><dependencies>  <requires name="org.infogrid.util" mode="buildtime"/>
+
+  <requires name="org.infogrid.util" mode="runtime"/>
+
+</dependencies>
+
+</standardmodule>

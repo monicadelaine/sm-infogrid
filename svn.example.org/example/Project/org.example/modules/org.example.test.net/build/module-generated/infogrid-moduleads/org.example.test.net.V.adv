@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF8"?>
+<standardmodule>
+<name>org.example.test.net</name>
+<built>2016-03-20T19:49:47.686Z</built>
+<userdescription>The NetMeshWorld bootstrap example application.</userdescription>
+<provides>
+<jar>org.example.test.net.jar</jar>
+</provides><dependencies>  <requires name="org.infogrid.util.logging.log4j" mode="buildtime">
+   <parameter name="org.infogrid.util.logging.log4j.ConfigPropertiesFile" value ="org/example/test/net/Log.properties"/>
+   <parameter name="org.infogrid.util.ResourceHelper.ApplicationResourceBundle" value ="org/example/test/net/App"/>
+  </requires>
+
+  <requires name="org.infogrid.comm.pingpong" mode="buildtime"/>
+
+  <requires name="org.infogrid.model.Tagging" mode="buildtime"/>
+
+  <requires name="org.infogrid.model.Viewlet" mode="buildtime"/>
+
+  <requires name="org.infogrid.model.Wiki" mode="buildtime"/>
+
+  <requires name="org.infogrid.model.Blob" mode="buildtime"/>
+
+  <requires name="org.infogrid.model.Common" mode="buildtime"/>
+
+  <requires name="org.infogrid.model.Probe" mode="buildtime"/>
+
+  <requires name="org.infogrid.meshbase.store.net" mode="buildtime"/>
+
+  <requires name="org.infogrid.jee.viewlet.net.local.store" mode="buildtime"/>
+
+  <requires name="org.infogrid.jee.viewlet.net" mode="buildtime"/>
+
+  <requires name="org.infogrid.jee.probe" mode="buildtime"/>
+
+  <requires name="org.infogrid.jee.templates" mode="buildtime"/>
+
+  <requires name="org.infogrid.jee.shell.http" mode="buildtime"/>
+
+  <requires name="org.infogrid.jee.viewlet.bulk" mode="buildtime"/>
+
+  <requires name="org.infogrid.jee.viewlet.log4j" mode="buildtime"/>
+
+  <requires name="org.infogrid.jee.viewlet.module" mode="buildtime"/>
+
+  <requires name="org.infogrid.kernel.net" mode="buildtime"/>
+
+  <requires name="org.infogrid.net.local.store" mode="buildtime"/>
+
+  <requires name="org.infogrid.lid" mode="buildtime"/>
+
+  <requires name="org.infogrid.lid.model.lid" mode="buildtime"/>
+
+  <requires name="org.infogrid.lid.openid" mode="buildtime"/>
+
+  <requires name="org.infogrid.lid.model.openid.auth" mode="buildtime"/>
+
+  <requires name="org.infogrid.lid.model.yadis" mode="buildtime"/>
+
+  <requires name="org.infogrid.store.sql.mysql" mode="buildtime"/>
+
+  <requires name="org.example.model.House" mode="buildtime"/>
+
+  <requires name="org.infogrid.util.logging.log4j" mode="runtime">
+   <parameter name="org.infogrid.util.logging.log4j.ConfigPropertiesFile" value ="org/example/test/net/Log.properties"/>
+   <parameter name="org.infogrid.util.ResourceHelper.ApplicationResourceBundle" value ="org/example/test/net/App"/>
+  </requires>
+
+  <requires name="org.infogrid.comm.pingpong" mode="runtime"/>
+
+  <requires name="org.infogrid.model.Tagging" mode="runtime"/>
+
+  <requires name="org.infogrid.model.Viewlet" mode="runtime"/>
+
+  <requires name="org.infogrid.model.Wiki" mode="runtime"/>
+
+  <requires name="org.infogrid.model.Blob" mode="runtime"/>
+
+  <requires name="org.infogrid.model.Common" mode="runtime"/>
+
+  <requires name="org.infogrid.model.Probe" mode="runtime"/>
+
+  <requires name="org.infogrid.meshbase.store.net" mode="runtime"/>
+
+  <requires name="org.infogrid.jee.viewlet.net.local.store" mode="runtime"/>
+
+  <requires name="org.infogrid.jee.viewlet.net" mode="runtime"/>
+
+  <requires name="org.infogrid.jee.probe" mode="runtime"/>
+
+  <requires name="org.infogrid.jee.templates" mode="runtime"/>
+
+  <requires name="org.infogrid.jee.shell.http" mode="runtime"/>
+
+  <requires name="org.infogrid.jee.viewlet.bulk" mode="runtime"/>
+
+  <requires name="org.infogrid.jee.viewlet.log4j" mode="runtime"/>
+
+  <requires name="org.infogrid.jee.viewlet.module" mode="runtime"/>
+
+  <requires name="org.infogrid.kernel.net" mode="runtime"/>
+
+  <requires name="org.infogrid.net.local.store" mode="runtime"/>
+
+  <requires name="org.infogrid.lid" mode="runtime"/>
+
+  <requires name="org.infogrid.lid.model.lid" mode="runtime"/>
+
+  <requires name="org.infogrid.lid.openid" mode="runtime"/>
+
+  <requires name="org.infogrid.lid.model.openid.auth" mode="runtime"/>
+
+  <requires name="org.infogrid.lid.model.yadis" mode="runtime"/>
+
+  <requires name="org.infogrid.store.sql.mysql" mode="runtime"/>
+
+  <requires name="org.example.model.House" mode="runtime"/>
+
+</dependencies>
+
+</standardmodule>

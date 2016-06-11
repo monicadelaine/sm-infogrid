@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF8"?>
+<modelmodule>
+<name>org.infogrid.model.Web</name>
+<built>2016-02-21T12:50:19.594Z</built>
+<username>Web Subject Area</username>
+<provides>
+<jar>org.infogrid.model.Web.jar</jar>
+</provides><dependencies>  <requires name="org.infogrid.kernel" mode="buildtime"/>
+
+  <requires name="org.infogrid.kernel" mode="runtime"/>
+
+</dependencies>
+</modelmodule>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF8"?>
+<modelmodule>
+<name>org.infogrid.lid.model.yadis</name>
+<built>2016-02-21T12:50:32.847Z</built>
+<username>Yadis Subject Area</username>
+<provides>
+<jar>org.infogrid.lid.model.yadis.jar</jar>
+</provides><dependencies>  <requires name="org.infogrid.kernel" mode="buildtime"/>
+
+  <requires name="org.infogrid.model.Web" mode="buildtime"/>
+
+  <requires name="org.infogrid.kernel" mode="runtime"/>
+
+  <requires name="org.infogrid.model.Web" mode="runtime"/>
+
+</dependencies>
+</modelmodule>

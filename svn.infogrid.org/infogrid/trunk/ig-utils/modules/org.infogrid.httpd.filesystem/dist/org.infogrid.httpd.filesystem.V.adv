@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF8"?>
+<standardmodule>
+<name>org.infogrid.httpd.filesystem</name>
+<built>2016-02-21T12:48:09.176Z</built>
+<username>Simple HTTP file system server</username>
+<userdescription>The minimalistic HTTP server serving files from the file system</userdescription>
+<provides>
+<jar>org.infogrid.httpd.filesystem.jar</jar>
+</provides><dependencies>  <requires name="org.infogrid.httpd" mode="buildtime"/>
+
+  <requires name="org.infogrid.util" mode="buildtime"/>
+
+  <requires name="org.infogrid.httpd" mode="runtime"/>
+
+  <requires name="org.infogrid.util" mode="runtime"/>
+
+</dependencies>
+
+</standardmodule>

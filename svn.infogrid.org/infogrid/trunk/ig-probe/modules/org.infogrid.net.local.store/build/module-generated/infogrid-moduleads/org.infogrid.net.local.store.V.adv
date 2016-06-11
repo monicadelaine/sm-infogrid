@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF8"?>
+<standardmodule>
+<name>org.infogrid.net.local.store</name>
+<built>2016-02-21T14:10:24.558Z</built>
+<username>Store for Probe-integrated NetMeshBases Module</username>
+<userdescription>Enables a Probe-integrated NetMeshBase to persist its content in any InfoGrid Store.</userdescription>
+<provides>
+<jar>org.infogrid.net.local.store.jar</jar>
+</provides><dependencies>  <requires name="org.infogrid.kernel.net" mode="buildtime"/>
+
+  <requires name="org.infogrid.net.local" mode="buildtime"/>
+
+  <requires name="org.infogrid.store" mode="buildtime"/>
+
+  <requires name="org.infogrid.meshbase.store" mode="buildtime"/>
+
+  <requires name="org.infogrid.meshbase.store.net" mode="buildtime"/>
+
+  <requires name="org.infogrid.probe" mode="buildtime"/>
+
+  <requires name="org.infogrid.probe.store" mode="buildtime"/>
+
+  <requires name="org.infogrid.util" mode="buildtime"/>
+
+  <requires name="org.infogrid.kernel.net" mode="runtime"/>
+
+  <requires name="org.infogrid.net.local" mode="runtime"/>
+
+  <requires name="org.infogrid.store" mode="runtime"/>
+
+  <requires name="org.infogrid.meshbase.store" mode="runtime"/>
+
+  <requires name="org.infogrid.meshbase.store.net" mode="runtime"/>
+
+  <requires name="org.infogrid.probe" mode="runtime"/>
+
+  <requires name="org.infogrid.probe.store" mode="runtime"/>
+
+  <requires name="org.infogrid.util" mode="runtime"/>
+
+</dependencies>
+
+</standardmodule>

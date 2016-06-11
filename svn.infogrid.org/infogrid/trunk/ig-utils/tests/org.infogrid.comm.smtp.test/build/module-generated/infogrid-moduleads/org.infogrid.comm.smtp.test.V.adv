@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF8"?>
+<standardmodule>
+<name>org.infogrid.comm.smtp.test</name>
+<built>2016-02-21T12:48:21.935Z</built>
+<username>SMTP Test Module</username>
+<userdescription>Tests the SMTP Communications Module</userdescription>
+<runclass>org.infogrid.comm.smtp.test.AllTests</runclass>
+<provides>
+<jar>org.infogrid.comm.smtp.test.jar</jar>
+</provides><dependencies>  <requires name="org.infogrid.util.logging.log4j" mode="buildtime">
+   <parameter name="org.infogrid.util.logging.log4j.ConfigPropertiesFile" value ="org/infogrid/comm/smtp/test/Log.properties"/>
+  </requires>
+
+  <requires name="org.infogrid.comm.smtp" mode="buildtime"/>
+
+  <requires name="org.infogrid.testharness" mode="buildtime"/>
+
+  <requires name="org.infogrid.util" mode="buildtime"/>
+
+  <requires name="org.infogrid.util.logging.log4j" mode="runtime">
+   <parameter name="org.infogrid.util.logging.log4j.ConfigPropertiesFile" value ="org/infogrid/comm/smtp/test/Log.properties"/>
+  </requires>
+
+  <requires name="org.infogrid.comm.smtp" mode="runtime"/>
+
+  <requires name="org.infogrid.testharness" mode="runtime"/>
+
+  <requires name="org.infogrid.util" mode="runtime"/>
+
+</dependencies>
+
+</standardmodule>

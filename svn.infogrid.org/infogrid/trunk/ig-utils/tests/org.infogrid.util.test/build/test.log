@@ -1,0 +1,160 @@
+
+INFO  2016-02-21 15:24:19,542 [main] infogrid.testharness.AbstractTestGroup (Log4jLog.java:164) 
+ @ org.infogrid.util.logging.log4j.Log4jLog.logInfo:164
+ - Running TestSpec org.infogrid.util.test.ArrayHelperTest1
+
+INFO  2016-02-21 15:24:19,546 [main] infogrid.testharness.AbstractTestGroup (Log4jLog.java:164) 
+ @ org.infogrid.util.logging.log4j.Log4jLog.logInfo:164
+ - Running TestSpec org.infogrid.util.test.DereferencingIteratorTest1
+
+INFO  2016-02-21 15:24:20,743 [main] infogrid.testharness.AbstractTestGroup (Log4jLog.java:164) 
+ @ org.infogrid.util.logging.log4j.Log4jLog.logInfo:164
+ - Running TestSpec org.infogrid.util.test.ArrayCursorIteratorTest1
+
+INFO  2016-02-21 15:24:20,746 [main] infogrid.testharness.AbstractTestGroup (Log4jLog.java:164) 
+ @ org.infogrid.util.logging.log4j.Log4jLog.logInfo:164
+ - Running TestSpec org.infogrid.util.test.ArrayCursorIteratorTest2
+
+INFO  2016-02-21 15:24:20,746 [main] infogrid.testharness.AbstractTestGroup (Log4jLog.java:164) 
+ @ org.infogrid.util.logging.log4j.Log4jLog.logInfo:164
+ - Running TestSpec org.infogrid.util.test.ArrayCursorIteratorTest3
+
+INFO  2016-02-21 15:24:20,747 [main] infogrid.testharness.AbstractTestGroup (Log4jLog.java:164) 
+ @ org.infogrid.util.logging.log4j.Log4jLog.logInfo:164
+ - Running TestSpec org.infogrid.util.test.ArrayListCursorIteratorTest1
+
+INFO  2016-02-21 15:24:20,748 [main] infogrid.testharness.AbstractTestGroup (Log4jLog.java:164) 
+ @ org.infogrid.util.logging.log4j.Log4jLog.logInfo:164
+ - Running TestSpec org.infogrid.util.test.ArrayListCursorIteratorTest2
+
+INFO  2016-02-21 15:24:20,749 [main] infogrid.testharness.AbstractTestGroup (Log4jLog.java:164) 
+ @ org.infogrid.util.logging.log4j.Log4jLog.logInfo:164
+ - Running TestSpec org.infogrid.util.test.ArrayListCursorIteratorTest3
+
+INFO  2016-02-21 15:24:20,750 [main] infogrid.testharness.AbstractTestGroup (Log4jLog.java:164) 
+ @ org.infogrid.util.logging.log4j.Log4jLog.logInfo:164
+ - Running TestSpec org.infogrid.util.test.FileTreeFacadeCursorIteratorTest1
+
+INFO  2016-02-21 15:24:20,766 [main] infogrid.testharness.AbstractTestGroup (Log4jLog.java:164) 
+ @ org.infogrid.util.logging.log4j.Log4jLog.logInfo:164
+ - Running TestSpec org.infogrid.util.test.FileTreeFacadeCursorIteratorTest2
+
+INFO  2016-02-21 15:24:20,768 [main] infogrid.testharness.AbstractTestGroup (Log4jLog.java:164) 
+ @ org.infogrid.util.logging.log4j.Log4jLog.logInfo:164
+ - Running TestSpec org.infogrid.util.test.FilteringCursorIteratorTest1
+
+INFO  2016-02-21 15:24:20,770 [main] infogrid.testharness.AbstractTestGroup (Log4jLog.java:164) 
+ @ org.infogrid.util.logging.log4j.Log4jLog.logInfo:164
+ - Running TestSpec org.infogrid.util.test.FilteringCursorIteratorTest2a
+
+INFO  2016-02-21 15:24:20,771 [main] infogrid.testharness.AbstractTestGroup (Log4jLog.java:164) 
+ @ org.infogrid.util.logging.log4j.Log4jLog.logInfo:164
+ - Running TestSpec org.infogrid.util.test.FilteringCursorIteratorTest2b
+
+INFO  2016-02-21 15:24:20,771 [main] infogrid.testharness.AbstractTestGroup (Log4jLog.java:164) 
+ @ org.infogrid.util.logging.log4j.Log4jLog.logInfo:164
+ - Running TestSpec org.infogrid.util.test.FilteringCursorIteratorTest3a
+
+INFO  2016-02-21 15:24:20,772 [main] infogrid.testharness.AbstractTestGroup (Log4jLog.java:164) 
+ @ org.infogrid.util.logging.log4j.Log4jLog.logInfo:164
+ - Running TestSpec org.infogrid.util.test.FilteringCursorIteratorTest3b
+
+INFO  2016-02-21 15:24:20,772 [main] infogrid.testharness.AbstractTestGroup (Log4jLog.java:164) 
+ @ org.infogrid.util.logging.log4j.Log4jLog.logInfo:164
+ - Running TestSpec org.infogrid.util.test.PagingCursorIteratorTest1
+
+INFO  2016-02-21 15:24:20,774 [main] infogrid.testharness.AbstractTestGroup (Log4jLog.java:164) 
+ @ org.infogrid.util.logging.log4j.Log4jLog.logInfo:164
+ - Running TestSpec org.infogrid.util.test.PagingCursorIteratorTest2a
+
+INFO  2016-02-21 15:24:20,774 [main] infogrid.testharness.AbstractTestGroup (Log4jLog.java:164) 
+ @ org.infogrid.util.logging.log4j.Log4jLog.logInfo:164
+ - Running TestSpec org.infogrid.util.test.PagingCursorIteratorTest2b
+
+INFO  2016-02-21 15:24:20,775 [main] infogrid.testharness.AbstractTestGroup (Log4jLog.java:164) 
+ @ org.infogrid.util.logging.log4j.Log4jLog.logInfo:164
+ - Running TestSpec org.infogrid.util.test.PagingCursorIteratorTest2c
+
+INFO  2016-02-21 15:24:20,775 [main] infogrid.testharness.AbstractTestGroup (Log4jLog.java:164) 
+ @ org.infogrid.util.logging.log4j.Log4jLog.logInfo:164
+ - Running TestSpec org.infogrid.util.test.PagingCursorIteratorTest3b
+
+INFO  2016-02-21 15:24:20,776 [main] infogrid.testharness.AbstractTestGroup (Log4jLog.java:164) 
+ @ org.infogrid.util.logging.log4j.Log4jLog.logInfo:164
+ - Running TestSpec org.infogrid.util.test.CompositeCursorIteratorTest1
+
+INFO  2016-02-21 15:24:20,777 [main] infogrid.testharness.AbstractTestGroup (Log4jLog.java:164) 
+ @ org.infogrid.util.logging.log4j.Log4jLog.logInfo:164
+ - Running TestSpec org.infogrid.util.test.CompositeCursorIteratorTest2
+
+INFO  2016-02-21 15:24:20,778 [main] infogrid.testharness.AbstractTestGroup (Log4jLog.java:164) 
+ @ org.infogrid.util.logging.log4j.Log4jLog.logInfo:164
+ - Running TestSpec org.infogrid.util.test.CompositeCursorIteratorTest3
+
+INFO  2016-02-21 15:24:20,779 [main] infogrid.testharness.AbstractTestGroup (Log4jLog.java:164) 
+ @ org.infogrid.util.logging.log4j.Log4jLog.logInfo:164
+ - Running TestSpec org.infogrid.util.test.ReturnSynchronizerTest1
+
+INFO  2016-02-21 15:24:31,803 [main] infogrid.testharness.AbstractTestGroup (Log4jLog.java:164) 
+ @ org.infogrid.util.logging.log4j.Log4jLog.logInfo:164
+ - Running TestSpec org.infogrid.util.test.SmartFactoryTest1
+
+INFO  2016-02-21 15:24:31,806 [main] infogrid.testharness.AbstractTestGroup (Log4jLog.java:164) 
+ @ org.infogrid.util.logging.log4j.Log4jLog.logInfo:164
+ - Running TestSpec org.infogrid.util.test.SmartFactoryTest2
+
+INFO  2016-02-21 15:24:31,807 [main] infogrid.testharness.AbstractTestGroup (Log4jLog.java:164) 
+ @ org.infogrid.util.logging.log4j.Log4jLog.logInfo:164
+ - Running TestSpec org.infogrid.util.test.SmartFactoryTest3
+
+INFO  2016-02-21 15:24:35,382 [main] infogrid.testharness.AbstractTestGroup (Log4jLog.java:164) 
+ @ org.infogrid.util.logging.log4j.Log4jLog.logInfo:164
+ - Running TestSpec org.infogrid.util.test.SmartFactoryTest4
+
+INFO  2016-02-21 15:24:37,757 [main] infogrid.testharness.AbstractTestGroup (Log4jLog.java:164) 
+ @ org.infogrid.util.logging.log4j.Log4jLog.logInfo:164
+ - Running TestSpec org.infogrid.util.test.StringStringifierTest1
+
+INFO  2016-02-21 15:24:37,759 [main] infogrid.testharness.AbstractTestGroup (Log4jLog.java:164) 
+ @ org.infogrid.util.logging.log4j.Log4jLog.logInfo:164
+ - Running TestSpec org.infogrid.util.test.IntegerStringifierTest1
+
+INFO  2016-02-21 15:24:37,761 [main] infogrid.testharness.AbstractTestGroup (Log4jLog.java:164) 
+ @ org.infogrid.util.logging.log4j.Log4jLog.logInfo:164
+ - Running TestSpec org.infogrid.util.test.IntegerStringifierTest2
+
+INFO  2016-02-21 15:24:37,762 [main] infogrid.testharness.AbstractTestGroup (Log4jLog.java:164) 
+ @ org.infogrid.util.logging.log4j.Log4jLog.logInfo:164
+ - Running TestSpec org.infogrid.util.test.IntegerStringifierTest3
+
+INFO  2016-02-21 15:24:37,762 [main] infogrid.testharness.AbstractTestGroup (Log4jLog.java:164) 
+ @ org.infogrid.util.logging.log4j.Log4jLog.logInfo:164
+ - Running TestSpec org.infogrid.util.test.LongStringifierTest1
+
+INFO  2016-02-21 15:24:37,764 [main] infogrid.testharness.AbstractTestGroup (Log4jLog.java:164) 
+ @ org.infogrid.util.logging.log4j.Log4jLog.logInfo:164
+ - Running TestSpec org.infogrid.util.test.DoubleStringifierTest1
+
+INFO  2016-02-21 15:24:37,769 [main] infogrid.testharness.AbstractTestGroup (Log4jLog.java:164) 
+ @ org.infogrid.util.logging.log4j.Log4jLog.logInfo:164
+ - Running TestSpec org.infogrid.util.test.MessageStringifierTest1
+
+INFO  2016-02-21 15:24:37,773 [main] infogrid.testharness.AbstractTestGroup (Log4jLog.java:164) 
+ @ org.infogrid.util.logging.log4j.Log4jLog.logInfo:164
+ - Running TestSpec org.infogrid.util.test.MessageStringifierTest2
+
+INFO  2016-02-21 15:24:37,775 [main] infogrid.testharness.AbstractTestGroup (Log4jLog.java:164) 
+ @ org.infogrid.util.logging.log4j.Log4jLog.logInfo:164
+ - Running TestSpec org.infogrid.util.test.MessageStringifierTest3
+
+INFO  2016-02-21 15:24:37,776 [main] infogrid.testharness.AbstractTestGroup (Log4jLog.java:164) 
+ @ org.infogrid.util.logging.log4j.Log4jLog.logInfo:164
+ - Running TestSpec org.infogrid.util.test.MessageStringifierTest4
+
+INFO  2016-02-21 15:24:37,777 [main] infogrid.testharness.AbstractTestGroup (Log4jLog.java:164) 
+ @ org.infogrid.util.logging.log4j.Log4jLog.logInfo:164
+ - Running TestSpec org.infogrid.util.test.ArrayStringifierTest1
+
+INFO  2016-02-21 15:24:37,778 [main] infogrid.testharness.AbstractTestGroup (Log4jLog.java:164) 
+ @ org.infogrid.util.logging.log4j.Log4jLog.logInfo:164
+ - Running TestSpec org.infogrid.util.test.UrlEncodingTest1

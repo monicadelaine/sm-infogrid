@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF8"?>
+<standardmodule>
+<name>org.infogrid.kernel</name>
+<built>2016-03-20T18:49:08.195Z</built>
+<username>The InfoGrid kernel</username>
+<userdescription>Contains all foundation InfoGrid frameworks and concepts and simple implementations.</userdescription>
+<provides>
+<jar>org.infogrid.kernel.jar</jar>
+</provides><dependencies>  <requires name="org.infogrid.util" mode="buildtime"/>
+
+  <requires name="org.infogrid.util" mode="runtime"/>
+
+</dependencies>
+
+</standardmodule>

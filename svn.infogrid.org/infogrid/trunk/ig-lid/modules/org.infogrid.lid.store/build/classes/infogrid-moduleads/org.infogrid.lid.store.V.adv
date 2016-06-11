@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF8"?>
+<standardmodule>
+<name>org.infogrid.lid.store</name>
+<built>2016-02-21T12:51:11.558Z</built>
+<username>Store support for the InfoGrid LID implementation</username>
+<userdescription>Enables LID information to be stored via any InfoGrid Store.</userdescription>
+<provides>
+<jar>org.infogrid.lid.store.jar</jar>
+</provides><dependencies>  <requires name="org.infogrid.lid" mode="buildtime"/>
+
+  <requires name="org.infogrid.store" mode="buildtime"/>
+
+  <requires name="org.infogrid.util" mode="buildtime"/>
+
+  <requires name="org.infogrid.lid" mode="runtime"/>
+
+  <requires name="org.infogrid.store" mode="runtime"/>
+
+  <requires name="org.infogrid.util" mode="runtime"/>
+
+</dependencies>
+
+</standardmodule>

@@ -1,0 +1,16 @@
+
+INFO  2016-02-21 15:27:14,037 [main] infogrid.testharness.AbstractTestGroup (Log4jLog.java:164) 
+ @ org.infogrid.util.logging.log4j.Log4jLog.logInfo:164
+ - Running TestSpec org.infogrid.store.filesystem.test.FilesystemStoreTest1
+
+INFO  2016-02-21 15:27:14,064 [main] infogrid.testharness.AbstractTestGroup (Log4jLog.java:164) 
+ @ org.infogrid.util.logging.log4j.Log4jLog.logInfo:164
+ - Running TestSpec org.infogrid.store.filesystem.test.FilesystemStoreIteratorTest1
+
+INFO  2016-02-21 15:27:14,145 [main] infogrid.testharness.AbstractTestGroup (Log4jLog.java:164) 
+ @ org.infogrid.util.logging.log4j.Log4jLog.logInfo:164
+ - Running TestSpec org.infogrid.store.filesystem.test.FilesystemStoreIteratorTest2
+
+INFO  2016-02-21 15:27:14,150 [main] infogrid.testharness.AbstractTestGroup (Log4jLog.java:164) 
+ @ org.infogrid.util.logging.log4j.Log4jLog.logInfo:164
+ - Running TestSpec org.infogrid.store.filesystem.test.FilesystemStoreIteratorTest3

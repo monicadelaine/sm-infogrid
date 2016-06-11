@@ -1,0 +1,16 @@
+SMAP
+attributes_jsp.java
+JSP
+*S JSP
+*F
++ 0 attributes.jsp
+v/org/infogrid/jee/viewlet/propertysheet/PropertySheetViewlet/attributes.jsp
+*L
+1,5:44
+6:49,3
+7,12:52
+19:64,3
+20,9:67
+29:76,3
+30,7:79
+*E

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF8"?>
+<standardmodule>
+<name>org.infogrid.lid.ldap</name>
+<built>2016-02-21T12:51:06.975Z</built>
+<username>LDAP support for InfoGrid LID</username>
+<userdescription>Provides a LidIdentityServer implemented through LDAP.</userdescription>
+<provides>
+<jar>org.infogrid.lid.ldap.jar</jar>
+</provides><dependencies>  <requires name="org.infogrid.lid" mode="buildtime"/>
+
+  <requires name="org.infogrid.util" mode="buildtime"/>
+
+  <requires name="org.infogrid.lid" mode="runtime"/>
+
+  <requires name="org.infogrid.util" mode="runtime"/>
+
+</dependencies>
+
+</standardmodule>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><modelmodule>
+<name>org.infogrid.model.Wiki</name>
+<version/>
+<username>Wiki Subject Area</username>
+<provides>
+<jar>org.infogrid.model.Wiki.jar</jar>
+</provides>
+<dependencies>
+<requires name="org.infogrid.kernel"/>
+</dependencies>
+</modelmodule>

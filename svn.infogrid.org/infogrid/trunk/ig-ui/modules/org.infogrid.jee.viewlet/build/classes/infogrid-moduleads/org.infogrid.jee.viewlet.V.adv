@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF8"?>
+<standardmodule>
+<name>org.infogrid.jee.viewlet</name>
+<built>2016-02-21T23:11:43.485Z</built>
+<username>JEE support for InfoGrid Viewlets.</username>
+<userdescription>The Viewlet framework in a JEE implementation</userdescription>
+<provides>
+<jar>org.infogrid.jee.viewlet.jar</jar>
+</provides><dependencies>  <requires name="org.infogrid.jee.templates" mode="buildtime"/>
+
+  <requires name="org.infogrid.model.Blob" mode="buildtime"/>
+
+  <requires name="org.infogrid.viewlet" mode="buildtime"/>
+
+  <requires name="org.infogrid.kernel" mode="buildtime"/>
+
+  <requires name="org.infogrid.util" mode="buildtime"/>
+
+  <requires name="org.infogrid.jee.templates" mode="runtime"/>
+
+  <requires name="org.infogrid.model.Blob" mode="runtime"/>
+
+  <requires name="org.infogrid.viewlet" mode="runtime"/>
+
+  <requires name="org.infogrid.kernel" mode="runtime"/>
+
+  <requires name="org.infogrid.util" mode="runtime"/>
+
+</dependencies>
+
+</standardmodule>

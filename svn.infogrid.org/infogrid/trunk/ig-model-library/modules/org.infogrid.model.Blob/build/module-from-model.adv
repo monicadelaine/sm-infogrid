@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><modelmodule>
+<name>org.infogrid.model.Blob</name>
+<version/>
+<username>Blob (Binary Large Objects) Subject Area</username>
+<provides>
+<jar>org.infogrid.model.Blob.jar</jar>
+</provides>
+<dependencies>
+<requires name="org.infogrid.kernel"/>
+<requires name="org.infogrid.model.Common" version=""/>
+</dependencies>
+</modelmodule>

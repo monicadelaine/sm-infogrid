@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF8"?>
+<standardmodule>
+<name>org.infogrid.jee.testapp</name>
+<built>2016-02-21T14:11:38.288Z</built>
+<userdescription>Test application.</userdescription>
+<provides>
+<jar>org.infogrid.jee.testapp.war</jar>
+</provides><dependencies>  <requires name="org.infogrid.util.logging.log4j" mode="buildtime">
+   <parameter name="org.infogrid.util.logging.log4j.ConfigPropertiesFile" value ="org/infogrid/jee/testapp/Log.properties"/>
+   <parameter name="org.infogrid.util.ResourceHelper.ApplicationResourceBundle" value ="org/infogrid/jee/testapp/TestApp"/>
+  </requires>
+
+  <requires name="org.infogrid.model.Test" mode="buildtime"/>
+
+  <requires name="org.infogrid.model.Viewlet" mode="buildtime"/>
+
+  <requires name="org.infogrid.jee.viewlet" mode="buildtime"/>
+
+  <requires name="org.infogrid.jee.templates" mode="buildtime"/>
+
+  <requires name="org.infogrid.jee.shell.http" mode="buildtime"/>
+
+  <requires name="org.infogrid.jee.viewlet.bulk" mode="buildtime"/>
+
+  <requires name="org.infogrid.util" mode="buildtime"/>
+
+  <requires name="org.infogrid.util.logging.log4j" mode="runtime">
+   <parameter name="org.infogrid.util.logging.log4j.ConfigPropertiesFile" value ="org/infogrid/jee/testapp/Log.properties"/>
+   <parameter name="org.infogrid.util.ResourceHelper.ApplicationResourceBundle" value ="org/infogrid/jee/testapp/TestApp"/>
+  </requires>
+
+  <requires name="org.infogrid.model.Test" mode="runtime"/>
+
+  <requires name="org.infogrid.model.Viewlet" mode="runtime"/>
+
+  <requires name="org.infogrid.jee.viewlet" mode="runtime"/>
+
+  <requires name="org.infogrid.jee.templates" mode="runtime"/>
+
+  <requires name="org.infogrid.jee.shell.http" mode="runtime"/>
+
+  <requires name="org.infogrid.jee.viewlet.bulk" mode="runtime"/>
+
+  <requires name="org.infogrid.util" mode="runtime"/>
+
+</dependencies>
+
+</standardmodule>

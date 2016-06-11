@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><modelmodule>
+<name>org.infogrid.model.Requirement</name>
+<version/>
+<username>Requirements Subject Area</username>
+<provides>
+<jar>org.infogrid.model.Requirement.jar</jar>
+</provides>
+<dependencies>
+<requires name="org.infogrid.kernel"/>
+</dependencies>
+</modelmodule>

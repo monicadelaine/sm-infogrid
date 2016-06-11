@@ -1,0 +1,10 @@
+SMAP
+replica_002dinfo_jsp.java
+JSP
+*S JSP
+*F
++ 0 replica-info.jsp
+v/org/infogrid/jee/viewlet/propertysheet/net/NetPropertySheetViewlet/replica-info.jsp
+*L
+1,42:44
+*E

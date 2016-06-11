@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><modelmodule>
+<name>org.infogrid.lid.model.lid</name>
+<version/>
+<username>LID Subject Area</username>
+<provides>
+<jar>org.infogrid.lid.model.lid.jar</jar>
+</provides>
+<dependencies>
+<requires name="org.infogrid.kernel"/>
+<requires name="org.infogrid.lid.model.yadis" version=""/>
+<requires name="org.infogrid.model.Web" version=""/>
+<requires name="org.infogrid.lid" version=""/>
+</dependencies>
+</modelmodule>

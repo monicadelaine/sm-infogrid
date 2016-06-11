@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><modelmodule>
+<name>org.infogrid.model.VCard</name>
+<version/>
+<username>VCard Subject Area</username>
+<provides>
+<jar>org.infogrid.model.VCard.jar</jar>
+</provides>
+<dependencies>
+<requires name="org.infogrid.kernel"/>
+<requires name="org.infogrid.model.Common" version=""/>
+</dependencies>
+</modelmodule>

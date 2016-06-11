@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF8"?>
+<standardmodule>
+<name>org.infogrid.probe.vcard</name>
+<built>2016-02-21T14:10:17.540Z</built>
+<username>VCard Probe Module</username>
+<userdescription>Contains a Probe that can read VCards.</userdescription>
+<provides>
+<jar>org.infogrid.probe.vcard.jar</jar>
+</provides><dependencies>  <requires name="org.infogrid.kernel" mode="buildtime"/>
+
+  <requires name="org.infogrid.probe" mode="buildtime"/>
+
+  <requires name="org.infogrid.model.VCard" mode="buildtime"/>
+
+  <requires name="org.infogrid.kernel" mode="runtime"/>
+
+  <requires name="org.infogrid.probe" mode="runtime"/>
+
+  <requires name="org.infogrid.model.VCard" mode="runtime"/>
+
+</dependencies>
+ <capability>  <interface>org.infogrid.probe.vcard.VCardProbe</interface>
+  <interface>org.infogrid.probe.Probe</interface>
+  <implementation>org.infogrid.probe.vcard.VCardProbe</implementation>
+ </capability>
+
+</standardmodule>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF8"?>
+<standardmodule>
+<name>org.infogrid.viewlet</name>
+<built>2016-02-21T14:10:57.942Z</built>
+<username>Viewlet Module</username>
+<userdescription>Defines the InfoGrid Viewlet framework for showing MeshObjects on screen.</userdescription>
+<provides>
+<jar>org.infogrid.viewlet.jar</jar>
+</provides><dependencies>  <requires name="org.infogrid.model.Viewlet" mode="buildtime"/>
+
+  <requires name="org.infogrid.model.Viewlet" mode="runtime"/>
+
+</dependencies>
+
+</standardmodule>

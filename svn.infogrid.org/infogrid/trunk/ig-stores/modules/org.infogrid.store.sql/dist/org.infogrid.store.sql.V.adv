@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF8"?>
+<standardmodule>
+<name>org.infogrid.store.sql</name>
+<built>2016-02-21T12:48:46.088Z</built>
+<username>SQL Store Module</username>
+<userdescription>Implements the Store abstraction using a SQL database</userdescription>
+<provides>
+<jar>org.infogrid.store.sql.jar</jar>
+</provides><dependencies>  <requires name="org.infogrid.store" mode="buildtime"/>
+
+  <requires name="org.infogrid.util.sql" mode="buildtime"/>
+
+  <requires name="org.infogrid.store" mode="runtime"/>
+
+  <requires name="org.infogrid.util.sql" mode="runtime"/>
+
+</dependencies>
+
+</standardmodule>

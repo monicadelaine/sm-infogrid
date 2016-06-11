@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF8"?>
+<standardmodule>
+<name>org.infogrid.probe.store.test</name>
+<built>2016-02-21T14:10:40.903Z</built>
+<username>Store Probe test Module</username>
+<userdescription>Tests the persisting of Probe framework information via the InfoGrid Store
+   abstraction.</userdescription>
+<runclass>org.infogrid.probe.store.test.AllTests</runclass>
+<provides>
+<jar>org.infogrid.probe.store.test.jar</jar>
+</provides><dependencies>  <requires name="org.infogrid.util.logging.log4j" mode="buildtime">
+   <parameter name="org.infogrid.util.logging.log4j.ConfigPropertiesFile" value ="org/infogrid/probe/store/test/Log.properties"/>
+  </requires>
+
+  <requires name="org.infogrid.kernel" mode="buildtime"/>
+
+  <requires name="org.infogrid.kernel.net" mode="buildtime"/>
+
+  <requires name="org.infogrid.net.local" mode="buildtime"/>
+
+  <requires name="org.infogrid.net.local.store" mode="buildtime"/>
+
+  <requires name="org.infogrid.meshbase.store.net" mode="buildtime"/>
+
+  <requires name="org.infogrid.model.Probe" mode="buildtime"/>
+
+  <requires name="org.infogrid.model.Test" mode="buildtime"/>
+
+  <requires name="org.infogrid.probe.store" mode="buildtime"/>
+
+  <requires name="org.infogrid.store.sql.mysql" mode="buildtime"/>
+
+  <requires name="org.infogrid.lid.model.lid" mode="buildtime"/>
+
+  <requires name="org.infogrid.lid.openid" mode="buildtime"/>
+
+  <requires name="org.infogrid.lid.model.openid.auth" mode="buildtime"/>
+
+  <requires name="org.infogrid.lid.model.yadis" mode="buildtime"/>
+
+  <requires name="org.infogrid.util" mode="buildtime"/>
+
+  <requires name="org.infogrid.testharness" mode="buildtime"/>
+
+  <requires name="org.infogrid.util.logging.log4j" mode="runtime">
+   <parameter name="org.infogrid.util.logging.log4j.ConfigPropertiesFile" value ="org/infogrid/probe/store/test/Log.properties"/>
+  </requires>
+
+  <requires name="org.infogrid.kernel" mode="runtime"/>
+
+  <requires name="org.infogrid.kernel.net" mode="runtime"/>
+
+  <requires name="org.infogrid.net.local" mode="runtime"/>
+
+  <requires name="org.infogrid.net.local.store" mode="runtime"/>
+
+  <requires name="org.infogrid.meshbase.store.net" mode="runtime"/>
+
+  <requires name="org.infogrid.model.Probe" mode="runtime"/>
+
+  <requires name="org.infogrid.model.Test" mode="runtime"/>
+
+  <requires name="org.infogrid.probe.store" mode="runtime"/>
+
+  <requires name="org.infogrid.store.sql.mysql" mode="runtime"/>
+
+  <requires name="org.infogrid.lid.model.lid" mode="runtime"/>
+
+  <requires name="org.infogrid.lid.openid" mode="runtime"/>
+
+  <requires name="org.infogrid.lid.model.openid.auth" mode="runtime"/>
+
+  <requires name="org.infogrid.lid.model.yadis" mode="runtime"/>
+
+  <requires name="org.infogrid.util" mode="runtime"/>
+
+  <requires name="org.infogrid.testharness" mode="runtime"/>
+
+</dependencies>
+
+</standardmodule>

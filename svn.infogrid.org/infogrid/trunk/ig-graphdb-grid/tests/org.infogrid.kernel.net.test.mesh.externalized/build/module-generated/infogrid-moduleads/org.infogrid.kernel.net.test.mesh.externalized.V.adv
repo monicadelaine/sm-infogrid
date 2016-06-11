@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF8"?>
+<standardmodule>
+<name>org.infogrid.kernel.net.test.mesh.externalized</name>
+<built>2016-02-21T12:51:24.211Z</built>
+<username>NetMeshObject externalization test Module</username>
+<userdescription>Tests externalization of NetMeshObjects</userdescription>
+<runclass>org.infogrid.kernel.net.test.mesh.externalized.AllTests</runclass>
+<provides>
+<jar>org.infogrid.kernel.net.test.mesh.externalized.jar</jar>
+</provides><dependencies>  <requires name="org.infogrid.util.logging.log4j" mode="buildtime">
+   <parameter name="org.infogrid.util.logging.log4j.ConfigPropertiesFile" value ="org/infogrid/kernel/net/test/mesh/externalized/Log.properties"/>
+  </requires>
+
+  <requires name="org.infogrid.kernel" mode="buildtime"/>
+
+  <requires name="org.infogrid.kernel.net" mode="buildtime"/>
+
+  <requires name="org.infogrid.model.Test" mode="buildtime"/>
+
+  <requires name="org.infogrid.util" mode="buildtime"/>
+
+  <requires name="org.infogrid.testharness" mode="buildtime"/>
+
+  <requires name="org.infogrid.util.logging.log4j" mode="runtime">
+   <parameter name="org.infogrid.util.logging.log4j.ConfigPropertiesFile" value ="org/infogrid/kernel/net/test/mesh/externalized/Log.properties"/>
+  </requires>
+
+  <requires name="org.infogrid.kernel" mode="runtime"/>
+
+  <requires name="org.infogrid.kernel.net" mode="runtime"/>
+
+  <requires name="org.infogrid.model.Test" mode="runtime"/>
+
+  <requires name="org.infogrid.util" mode="runtime"/>
+
+  <requires name="org.infogrid.testharness" mode="runtime"/>
+
+</dependencies>
+
+</standardmodule>

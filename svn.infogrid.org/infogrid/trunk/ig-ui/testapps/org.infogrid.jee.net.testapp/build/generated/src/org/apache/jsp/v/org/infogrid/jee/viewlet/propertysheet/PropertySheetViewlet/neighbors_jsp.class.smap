@@ -1,0 +1,10 @@
+SMAP
+neighbors_jsp.java
+JSP
+*S JSP
+*F
++ 0 neighbors.jsp
+v/org/infogrid/jee/viewlet/propertysheet/PropertySheetViewlet/neighbors.jsp
+*L
+1,18:44
+*E

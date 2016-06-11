@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF8"?>
+<standardmodule>
+<name>org.infogrid.jee.security.aclbased</name>
+<built>2016-02-21T14:11:26.672Z</built>
+<username>Tags to support ACL-based security.</username>
+<provides>
+<jar>org.infogrid.jee.security.aclbased.jar</jar>
+</provides><dependencies>  <requires name="org.infogrid.jee.viewlet" mode="buildtime"/>
+
+  <requires name="org.infogrid.meshbase.security.aclbased" mode="buildtime"/>
+
+  <requires name="org.infogrid.jee.viewlet" mode="runtime"/>
+
+  <requires name="org.infogrid.meshbase.security.aclbased" mode="runtime"/>
+
+</dependencies>
+
+</standardmodule>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><modelmodule>
+<name>org.infogrid.lid.model.openid.ax</name>
+<version/>
+<username>OpenID Attribute Exchange Subject Area</username>
+<provides>
+<jar>org.infogrid.lid.model.openid.ax.jar</jar>
+</provides>
+<dependencies>
+<requires name="org.infogrid.kernel"/>
+<requires name="org.infogrid.lid.model.yadis" version=""/>
+</dependencies>
+</modelmodule>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF8"?>
+<standardmodule>
+<name>org.infogrid.meshbase.store.net</name>
+<built>2016-02-21T12:51:18.903Z</built>
+<username>Store NetMeshBase module</username>
+<userdescription>Enables the content of a NetMeshBase to be stored in any InfoGrid Store.</userdescription>
+<provides>
+<jar>org.infogrid.meshbase.store.net.jar</jar>
+</provides><dependencies>  <requires name="org.infogrid.kernel.net" mode="buildtime"/>
+
+  <requires name="org.infogrid.meshbase.store" mode="buildtime"/>
+
+  <requires name="org.infogrid.store" mode="buildtime"/>
+
+  <requires name="org.infogrid.util" mode="buildtime"/>
+
+  <requires name="org.infogrid.kernel.net" mode="runtime"/>
+
+  <requires name="org.infogrid.meshbase.store" mode="runtime"/>
+
+  <requires name="org.infogrid.store" mode="runtime"/>
+
+  <requires name="org.infogrid.util" mode="runtime"/>
+
+</dependencies>
+
+</standardmodule>

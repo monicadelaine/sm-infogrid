@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF8"?>
+<standardmodule>
+<name>org.infogrid.jee.viewlet.module</name>
+<built>2016-02-21T14:11:33.433Z</built>
+<username>Viewlet for Modules.</username>
+<userdescription>Enables the user to inspect the content of the Module Directory.</userdescription>
+<provides>
+<jar>org.infogrid.jee.viewlet.module.jar</jar>
+</provides><dependencies>  <requires name="org.infogrid.jee.viewlet" mode="buildtime"/>
+
+  <requires name="org.infogrid.jee.viewlet" mode="runtime"/>
+
+</dependencies>
+
+</standardmodule>

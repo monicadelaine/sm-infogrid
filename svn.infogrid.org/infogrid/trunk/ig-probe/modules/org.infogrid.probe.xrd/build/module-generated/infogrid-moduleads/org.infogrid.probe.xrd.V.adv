@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF8"?>
+<standardmodule>
+<name>org.infogrid.probe.xrd</name>
+<built>2016-02-21T14:10:19.935Z</built>
+<username>XRD Probe Module</username>
+<userdescription>Contains a Probe that can read XRD files.</userdescription>
+<provides>
+<jar>org.infogrid.probe.xrd.jar</jar>
+</provides><dependencies>  <requires name="org.infogrid.probe" mode="buildtime"/>
+
+  <requires name="org.infogrid.lid.model.xrd" mode="buildtime"/>
+
+  <requires name="org.infogrid.probe" mode="runtime"/>
+
+  <requires name="org.infogrid.lid.model.xrd" mode="runtime"/>
+
+</dependencies>
+ <capability>  <interface>org.infogrid.probe.xrd.XrdProbe</interface>
+  <interface>org.infogrid.probe.Probe</interface>
+  <implementation>org.infogrid.probe.xrd.XrdProbe</implementation>
+ </capability>
+
+</standardmodule>

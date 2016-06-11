@@ -1,0 +1,19 @@
+SMAP
+BulkLoaderViewlet_jsp.java
+JSP
+*S JSP
+*F
++ 0 BulkLoaderViewlet.jsp
+v/org/infogrid/jee/viewlet/bulk/BulkLoaderViewlet.jsp
+*L
+8:60
+9:84,4
+9:63
+10:101,12
+11:113
+11:137,9
+12,8:146
+20:154,3
+21,15:157
+35:116
+*E

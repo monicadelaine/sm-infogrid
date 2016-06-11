@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF8"?>
+<standardmodule>
+<name>org.infogrid.comm.smtp</name>
+<built>2016-02-21T12:48:00.992Z</built>
+<username>The SMTP Communications Module</username>
+<userdescription>Implements the abstract Communications Module using SMTP.</userdescription>
+<provides>
+<jar>org.infogrid.comm.smtp.jar</jar>
+</provides><dependencies>  <requires name="org.infogrid.util" mode="buildtime"/>
+
+  <requires name="org.infogrid.comm" mode="buildtime"/>
+
+  <requires name="org.infogrid.util" mode="runtime"/>
+
+  <requires name="org.infogrid.comm" mode="runtime"/>
+
+</dependencies>
+
+</standardmodule>

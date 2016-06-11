@@ -1,0 +1,8 @@
+
+INFO  2016-02-21 15:27:06,165 [main] infogrid.testharness.AbstractTestGroup (Log4jLog.java:164) 
+ @ org.infogrid.util.logging.log4j.Log4jLog.logInfo:164
+ - Running TestSpec org.infogrid.store.test.StoreBackedSwappingHashMapTest1
+
+INFO  2016-02-21 15:27:09,351 [main] infogrid.testharness.AbstractTestGroup (Log4jLog.java:164) 
+ @ org.infogrid.util.logging.log4j.Log4jLog.logInfo:164
+ - Running TestSpec org.infogrid.store.test.StoreBackedSwappingHashMapTest2

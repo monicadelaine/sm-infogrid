@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF8"?>
+<standardmodule>
+<name>org.infogrid.jee.viewlet.net.local.store</name>
+<built>2016-02-21T14:11:17.129Z</built>
+<username>JEE/REST Store Net support for InfoGrid.</username>
+<userdescription>Makes developing REST-ful, net-based applications based on Store with InfoGrid easier.</userdescription>
+<provides>
+<jar>org.infogrid.jee.viewlet.net.local.store.jar</jar>
+</provides><dependencies>  <requires name="org.infogrid.jee.viewlet.net" mode="buildtime"/>
+
+  <requires name="org.infogrid.net.local.store" mode="buildtime"/>
+
+  <requires name="org.infogrid.util" mode="buildtime"/>
+
+  <requires name="org.infogrid.jee.viewlet.net" mode="runtime"/>
+
+  <requires name="org.infogrid.net.local.store" mode="runtime"/>
+
+  <requires name="org.infogrid.util" mode="runtime"/>
+
+</dependencies>
+
+</standardmodule>

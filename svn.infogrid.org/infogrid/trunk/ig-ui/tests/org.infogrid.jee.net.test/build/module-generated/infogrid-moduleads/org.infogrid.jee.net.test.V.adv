@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF8"?>
+<standardmodule>
+<name>org.infogrid.jee.net.test</name>
+<built>2016-02-21T14:12:00.241Z</built>
+<username>org.infogrid.jee.net.testapp test program</username>
+<userdescription>Testing the InfoGrid testapp</userdescription>
+<runclass>org.infogrid.jee.net.test.AllTests</runclass>
+<provides>
+<jar>org.infogrid.jee.net.test.jar</jar>
+</provides><dependencies>  <requires name="org.infogrid.util.logging.log4j" mode="buildtime">
+   <parameter name="org.infogrid.util.logging.log4j.ConfigPropertiesFile" value ="org/infogrid/jee/net/test/Log.properties"/>
+  </requires>
+
+  <requires name="org.infogrid.testharness.tomcat" mode="buildtime"/>
+
+  <requires name="org.infogrid.util" mode="buildtime"/>
+
+  <requires name="org.infogrid.util.logging.log4j" mode="runtime">
+   <parameter name="org.infogrid.util.logging.log4j.ConfigPropertiesFile" value ="org/infogrid/jee/net/test/Log.properties"/>
+  </requires>
+
+  <requires name="org.infogrid.testharness.tomcat" mode="runtime"/>
+
+  <requires name="org.infogrid.util" mode="runtime"/>
+
+</dependencies>
+
+</standardmodule>

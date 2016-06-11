@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF8"?>
+<standardmodule>
+<name>org.infogrid.jee.lid</name>
+<built>2016-02-21T14:11:24.331Z</built>
+<username>JEE/REST support for InfoGrid LID.</username>
+<userdescription>Makes developing LID and OpenID-enabled applications with InfoGrid Networked easier.</userdescription>
+<provides>
+<jar>org.infogrid.jee.lid.jar</jar>
+</provides><dependencies>  <requires name="org.infogrid.jee" mode="buildtime"/>
+
+  <requires name="org.infogrid.lid" mode="buildtime"/>
+
+  <requires name="org.infogrid.lid.openid" mode="buildtime"/>
+
+  <requires name="org.infogrid.util" mode="buildtime"/>
+
+  <requires name="org.infogrid.jee" mode="runtime"/>
+
+  <requires name="org.infogrid.lid" mode="runtime"/>
+
+  <requires name="org.infogrid.lid.openid" mode="runtime"/>
+
+  <requires name="org.infogrid.util" mode="runtime"/>
+
+</dependencies>
+
+</standardmodule>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF8"?>
+<modelmodule>
+<name>org.infogrid.model.Test</name>
+<built>2016-02-21T12:49:27.297Z</built>
+<username>Test Subject Area</username>
+<provides>
+<jar>org.infogrid.model.Test.jar</jar>
+</provides><dependencies>  <requires name="org.infogrid.kernel" mode="buildtime"/>
+
+  <requires name="org.infogrid.kernel" mode="runtime"/>
+
+</dependencies>
+</modelmodule>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF8"?>
+<standardmodule>
+<name>org.infogrid.httpd.test</name>
+<built>2016-02-21T12:48:24.384Z</built>
+<username>HTTPD test Module</username>
+<userdescription>Testing the minimalistic HTTP server</userdescription>
+<runclass>org.infogrid.httpd.test.AllTests</runclass>
+<provides>
+<jar>org.infogrid.httpd.test.jar</jar>
+</provides><dependencies>  <requires name="org.infogrid.util.logging.log4j" mode="buildtime">
+   <parameter name="org.infogrid.util.logging.log4j.ConfigPropertiesFile" value ="org/infogrid/httpd/test/Log.properties"/>
+  </requires>
+
+  <requires name="org.infogrid.httpd" mode="buildtime"/>
+
+  <requires name="org.infogrid.testharness" mode="buildtime"/>
+
+  <requires name="org.infogrid.util" mode="buildtime"/>
+
+  <requires name="org.infogrid.util.logging.log4j" mode="runtime">
+   <parameter name="org.infogrid.util.logging.log4j.ConfigPropertiesFile" value ="org/infogrid/httpd/test/Log.properties"/>
+  </requires>
+
+  <requires name="org.infogrid.httpd" mode="runtime"/>
+
+  <requires name="org.infogrid.testharness" mode="runtime"/>
+
+  <requires name="org.infogrid.util" mode="runtime"/>
+
+</dependencies>
+
+</standardmodule>

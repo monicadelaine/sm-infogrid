@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF8"?>
+<standardmodule>
+<name>org.infogrid.store.sql.test</name>
+<built>2016-02-21T12:49:00.648Z</built>
+<username>SQL-based Store test Module</username>
+<userdescription>Tests the SQL-based Store implementation using MySQL and Postgresql.</userdescription>
+<runclass>org.infogrid.store.sql.test.AllTests</runclass>
+<provides>
+<jar>org.infogrid.store.sql.test.jar</jar>
+</provides><dependencies>  <requires name="org.infogrid.util.logging.log4j" mode="buildtime">
+   <parameter name="org.infogrid.util.logging.log4j.ConfigPropertiesFile" value ="org/infogrid/store/sql/test/Log.properties"/>
+  </requires>
+
+  <requires name="org.infogrid.store.sql.mysql" mode="buildtime"/>
+
+  <requires name="org.infogrid.store.sql.postgresql" mode="buildtime"/>
+
+  <requires name="org.infogrid.store.keystore" mode="buildtime"/>
+
+  <requires name="org.infogrid.store.test" mode="buildtime"/>
+
+  <requires name="org.infogrid.testharness" mode="buildtime"/>
+
+  <requires name="org.infogrid.util.logging.log4j" mode="runtime">
+   <parameter name="org.infogrid.util.logging.log4j.ConfigPropertiesFile" value ="org/infogrid/store/sql/test/Log.properties"/>
+  </requires>
+
+  <requires name="org.infogrid.store.sql.mysql" mode="runtime"/>
+
+  <requires name="org.infogrid.store.sql.postgresql" mode="runtime"/>
+
+  <requires name="org.infogrid.store.keystore" mode="runtime"/>
+
+  <requires name="org.infogrid.store.test" mode="runtime"/>
+
+  <requires name="org.infogrid.testharness" mode="runtime"/>
+
+</dependencies>
+
+</standardmodule>

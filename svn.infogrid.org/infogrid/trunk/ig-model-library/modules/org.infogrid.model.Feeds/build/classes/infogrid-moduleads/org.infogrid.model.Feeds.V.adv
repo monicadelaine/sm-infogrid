@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF8"?>
+<modelmodule>
+<name>org.infogrid.model.Feeds</name>
+<built>2016-02-21T12:50:05.504Z</built>
+<username>Feeds Subject Area</username>
+<provides>
+<jar>org.infogrid.model.Feeds.jar</jar>
+</provides><dependencies>  <requires name="org.infogrid.kernel" mode="buildtime"/>
+
+  <requires name="org.infogrid.kernel" mode="runtime"/>
+
+</dependencies>
+</modelmodule>

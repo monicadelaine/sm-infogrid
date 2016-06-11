@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF8"?>
+<standardmodule>
+<name>org.infogrid.store.sql.mysql</name>
+<built>2016-02-21T12:48:48.417Z</built>
+<username>MySQL Store Module</username>
+<userdescription>Implements the Store abstraction using the MySQL database</userdescription>
+<provides>
+<jar>org.infogrid.store.sql.mysql.jar</jar>
+</provides><dependencies>  <requires name="org.infogrid.store.sql" mode="buildtime"/>
+
+  <requires name="org.infogrid.util" mode="buildtime"/>
+
+  <requires name="org.infogrid.vendors.com.mysql.jdbc" mode="buildtime"/>
+
+  <requires name="org.infogrid.store.sql" mode="runtime"/>
+
+  <requires name="org.infogrid.util" mode="runtime"/>
+
+  <requires name="org.infogrid.vendors.com.mysql.jdbc" mode="runtime"/>
+
+</dependencies>
+
+</standardmodule>

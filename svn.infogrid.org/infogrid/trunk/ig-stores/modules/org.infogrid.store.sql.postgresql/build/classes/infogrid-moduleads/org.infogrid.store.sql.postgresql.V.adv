@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF8"?>
+<standardmodule>
+<name>org.infogrid.store.sql.postgresql</name>
+<built>2016-02-21T12:48:51.011Z</built>
+<username>PostgreSQL Store Module</username>
+<userdescription>Implements the Store abstraction using the PostgreSQL database</userdescription>
+<provides>
+<jar>org.infogrid.store.sql.postgresql.jar</jar>
+</provides><dependencies>  <requires name="org.infogrid.store.sql" mode="buildtime"/>
+
+  <requires name="org.infogrid.util" mode="buildtime"/>
+
+  <requires name="org.infogrid.vendors.org.postgresql.jdbc" mode="buildtime"/>
+
+  <requires name="org.infogrid.store.sql" mode="runtime"/>
+
+  <requires name="org.infogrid.util" mode="runtime"/>
+
+  <requires name="org.infogrid.vendors.org.postgresql.jdbc" mode="runtime"/>
+
+</dependencies>
+
+</standardmodule>

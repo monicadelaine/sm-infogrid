@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF8"?>
+<standardmodule>
+<name>org.infogrid.jee.viewlet.store</name>
+<built>2016-02-21T14:11:19.378Z</built>
+<username>JEE/REST Store support for InfoGrid.</username>
+<userdescription>Makes developing REST-ful applications based on Store with InfoGrid easier.</userdescription>
+<provides>
+<jar>org.infogrid.jee.viewlet.store.jar</jar>
+</provides><dependencies>  <requires name="org.infogrid.jee.viewlet" mode="buildtime"/>
+
+  <requires name="org.infogrid.meshbase.store" mode="buildtime"/>
+
+  <requires name="org.infogrid.kernel" mode="buildtime"/>
+
+  <requires name="org.infogrid.util" mode="buildtime"/>
+
+  <requires name="org.infogrid.jee.viewlet" mode="runtime"/>
+
+  <requires name="org.infogrid.meshbase.store" mode="runtime"/>
+
+  <requires name="org.infogrid.kernel" mode="runtime"/>
+
+  <requires name="org.infogrid.util" mode="runtime"/>
+
+</dependencies>
+
+</standardmodule>

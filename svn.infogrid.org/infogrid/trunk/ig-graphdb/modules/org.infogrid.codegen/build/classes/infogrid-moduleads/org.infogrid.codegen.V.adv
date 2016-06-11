@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF8"?>
+<standardmodule>
+<name>org.infogrid.codegen</name>
+<built>2016-03-20T18:42:33.279Z</built>
+<username>InfoGrid code generator</username>
+<userdescription>The InfoGrid code generator generates interfaces, implementation
+   classes, and documentation from models.</userdescription>
+<activationclass>org.infogrid.codegen.CodeGenerator</activationclass>
+<runclass>org.infogrid.codegen.CodeGenerator</runclass>
+<provides>
+<jar>org.infogrid.codegen.jar</jar>
+</provides><dependencies>  <requires name="org.infogrid.util.logging.log4j" mode="buildtime">
+   <parameter name="org.infogrid.util.logging.log4j.ConfigPropertiesFile" value ="org/infogrid/codegen/Log.properties"/>
+  </requires>
+
+  <requires name="org.infogrid.kernel" mode="buildtime"/>
+
+  <requires name="org.infogrid.util" mode="buildtime"/>
+
+  <requires name="org.infogrid.util.logging.log4j" mode="runtime">
+   <parameter name="org.infogrid.util.logging.log4j.ConfigPropertiesFile" value ="org/infogrid/codegen/Log.properties"/>
+  </requires>
+
+  <requires name="org.infogrid.kernel" mode="runtime"/>
+
+  <requires name="org.infogrid.util" mode="runtime"/>
+
+</dependencies>
+
+</standardmodule>

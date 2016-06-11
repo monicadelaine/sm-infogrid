@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF8"?>
+<modelmodule>
+<name>org.infogrid.lid.model.traversal</name>
+<built>2016-02-21T12:51:01.563Z</built>
+<username>LID Traversal Subject Area</username>
+<provides>
+<jar>org.infogrid.lid.model.traversal.jar</jar>
+</provides><dependencies>  <requires name="org.infogrid.kernel" mode="buildtime"/>
+
+  <requires name="org.infogrid.lid.model.yadis" mode="buildtime"/>
+
+  <requires name="org.infogrid.kernel" mode="runtime"/>
+
+  <requires name="org.infogrid.lid.model.yadis" mode="runtime"/>
+
+</dependencies>
+</modelmodule>

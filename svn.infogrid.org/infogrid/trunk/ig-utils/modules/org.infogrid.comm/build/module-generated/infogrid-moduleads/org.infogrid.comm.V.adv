@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF8"?>
+<standardmodule>
+<name>org.infogrid.comm</name>
+<built>2016-02-21T12:47:56.073Z</built>
+<username>Abstract Communications Module</username>
+<userdescription>The Communications Module provides the abstract notions of
+   communications endpoints that can send messages to each other.
+   It also implements RPC-style call-response patterns on top.</userdescription>
+<provides>
+<jar>org.infogrid.comm.jar</jar>
+</provides><dependencies>  <requires name="org.infogrid.util" mode="buildtime"/>
+
+  <requires name="org.infogrid.util" mode="runtime"/>
+
+</dependencies>
+
+</standardmodule>

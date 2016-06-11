@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF8"?>
+<standardmodule>
+<name>org.infogrid.testharness</name>
+<built>2016-02-21T12:48:11.733Z</built>
+<username>Test Harness Module</username>
+<userdescription>Contains the test harness for InfoGrid tests.</userdescription>
+<activationclass>org.infogrid.testharness.ModuleRegistryContext</activationclass>
+<provides>
+<jar>org.infogrid.testharness.jar</jar>
+</provides><dependencies>  <requires name="org.infogrid.util" mode="buildtime"/>
+
+  <requires name="org.infogrid.util" mode="runtime"/>
+
+</dependencies>
+
+</standardmodule>

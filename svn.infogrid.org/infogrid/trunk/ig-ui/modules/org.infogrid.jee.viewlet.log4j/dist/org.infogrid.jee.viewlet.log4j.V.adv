@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF8"?>
+<standardmodule>
+<name>org.infogrid.jee.viewlet.log4j</name>
+<built>2016-02-21T14:11:31.208Z</built>
+<username>Viewlet for log4j configuration.</username>
+<userdescription>Enables the user to change the log4j configuration at run-time.</userdescription>
+<provides>
+<jar>org.infogrid.jee.viewlet.log4j.jar</jar>
+</provides><dependencies>  <requires name="org.infogrid.jee.viewlet" mode="buildtime"/>
+
+  <requires name="org.infogrid.util.logging.log4j" mode="buildtime"/>
+
+  <requires name="org.infogrid.jee.viewlet" mode="runtime"/>
+
+  <requires name="org.infogrid.util.logging.log4j" mode="runtime"/>
+
+</dependencies>
+
+</standardmodule>

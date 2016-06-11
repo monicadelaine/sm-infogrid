@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF8"?>
+<standardmodule>
+<name>org.infogrid.vendors.org.apache.logging.log4j</name>
+<built>2016-02-21T12:48:35.092Z</built>
+<username>Log4j module</username>
+<userdescription>Wraps Log4j in an InfoGrid Module.</userdescription>
+<provides>
+<jar>org.infogrid.vendors.org.apache.logging.log4j.jar</jar><jar>log4j.jar</jar>
+</provides>
+</standardmodule>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF8"?>
+<standardmodule>
+<name>org.infogrid.util.instrument</name>
+<built>2016-02-21T12:47:49.206Z</built>
+<username>InfoGrid instrumentation module</username>
+<userdescription>This module enables the instrumentation of Java code
+  not all that differently from what a debugger would do.</userdescription>
+<provides>
+<jar>org.infogrid.util.instrument.jar</jar>
+</provides><dependencies>  <requires name="org.infogrid.util" mode="buildtime"/>
+
+  <requires name="org.infogrid.util" mode="runtime"/>
+
+</dependencies>
+
+</standardmodule>

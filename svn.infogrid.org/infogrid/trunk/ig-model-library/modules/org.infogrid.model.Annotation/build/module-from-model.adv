@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><modelmodule>
+<name>org.infogrid.model.Annotation</name>
+<version/>
+<username>Annotation Subject Area</username>
+<provides>
+<jar>org.infogrid.model.Annotation.jar</jar>
+</provides>
+<dependencies>
+<requires name="org.infogrid.kernel"/>
+</dependencies>
+</modelmodule>
